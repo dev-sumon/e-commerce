@@ -1,0 +1,282 @@
+*{
+   margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+}
+.container{
+    max-width: 1368px;
+    padding: 0px 50px;
+    margin: 0 auto;
+    height: 100%;
+}
+/* ---- header css satrt ----- */
+header{
+    background-color: #87565B;
+    margin: 0 auto;
+    padding: 0;
+}
+header .header_content {
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 5px;
+}
+header .header_content img{
+    text-align: start;
+}
+header .header_content .menu{
+    text-align: center;
+}
+header .header_content ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 18px;
+}
+header .header_content ul li:last-child{
+    margin-right: 0px;
+}
+header .header_content a{
+    text-decoration: none;
+    color: #fff;
+}
+header .header_content .icon{
+    text-align: right;
+}
+header .header_content .icon i{
+    color: #fff;
+}
+header .header_content .icon .fa-user{
+    padding: 5px;
+}
+header .header_content .icon input{
+    width: 50px;
+}
+header .header_content .icon input:focus{
+    outline: none;
+}
+/* ---- header css end ----- */
+/* Banner CSS  satrt*/
+
+.banner_section{
+    background-image: url(../images/banner.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.banner_section .conetnt{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.banner_section .conetnt .text{
+    position: absolute;
+    top: 40%;
+    display: inline-block;
+}
+.banner_section .conetnt .meadia_icon{
+    position: absolute;
+    right: 10px;
+    top: 70%;
+    display: inline-block;
+
+}
+.banner_section .conetnt .meadia_icon{
+    display: flex;
+    justify-content: space-between;
+}
+.banner_section .conetnt .meadia_icon img{
+    margin-right: 10px;
+}
+.banner_section .conetnt .meadia_icon span{
+    color: #FFF;
+    font-size: 18px;
+    cursor: pointer;
+}
+.banner_section .conetnt h3{
+    font-size: 56px;
+    color: #fff;
+    padding: 20px 0;
+}
+.banner_section .conetnt button{
+        padding: 10px 20px;
+        background-color: #87565b;
+        color: #fff;
+        border: 1px solid #87565b;
+}
+/* ---- Banner CSS  end ----- */
+/* ---- prodcut Section CSS  Start ----- */
+.prodcut_section {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.prodcut_section .product_title h3{
+    color: #87565B;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.prodcut_section .product_iteam {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 35px;
+
+}
+.prodcut_section .product_iteam .iteam {
+    padding: 15px 20px 10px 20px;
+    background-color: #F8F5EF;
+    position: relative;
+}
+.prodcut_section .product_iteam .iteam .discount {
+    position: absolute;
+    right: 5px;
+    top: 1%;
+    display: inline-block;
+    font-size: 20px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background-color: #87565b;
+    text-align: center;
+    color: #FFFFFF;
+}
+.prodcut_section .product_iteam .iteam img{
+    width: 100%;
+}
+.prodcut_section .product_iteam .iteam_desc a{
+    text-decoration: none;
+    color: #333333;
+    padding: 5px 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+
+}
+.prodcut_section .product_iteam .iteam_desc p{
+    padding: 5px 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: #333333;
+}
+.prodcut_section .product_iteam .iteam_desc span{
+    padding: 5px 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #87565B;
+
+}
+.prodcut_section .product_iteam .iteam_desc del{
+  padding-left: 10px;
+  color: #707070;
+
+}
+/* ---- prodcut Section CSS  end ----- */
+/* ---- reasons Section CSS  Start ----- */
+.reasons_section{
+    margin: 200px 0px;
+    background-color: #F8F5EF;
+    padding: 150px 0px;
+}
+.reasons_section .reasons_totle{
+    text-align: center;
+}
+.reasons_section .reasons_totle p{
+    font-size: 24px;
+    color: #333333;
+}
+.reasons_section .reasons_totle h3 {
+    padding: 10px 310px;
+    font-size: 40px;
+    color: #87565B;
+}
+.reasons_section .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    align-items: center;
+    text-align: center;
+}
+.reasons_section .content .iteam {
+    padding: 10px 75px;
+}
+.reasons_section .content .iteam i{
+   height: 60px;
+   width: 60px;
+   font-size: 35px;
+   line-height: 60px;
+   border-radius: 50%;
+   background-color: #87565B;
+   color: #FFF;
+}
+.reasons_section .content .iteam h3{
+  font-size: 23px;
+  color: #333333;
+  padding: 20px 0px;
+}
+.reasons_section .content .iteam p{
+  font-size: 17px;
+  color: #333333;
+}
+/* ---- reasons Section CSS  end ----- */
+/* ---- bønder Section CSS  Start ----- */
+.bønder_section{
+    margin: 150px 0;
+}
+.bønder_section .farmer{
+    display: flex;
+    gap: 40px;
+}
+
+.bønder_section .farmer .desc {
+    padding-top: 100px;
+    padding-right: 340px;
+}
+.bønder_section .farmer .desc h3{
+    font-size: 40px;
+    color: #87565B;
+}
+.bønder_section .farmer .desc p{
+    padding: 10px 0px;
+    font-size: 17px;
+    color: #333333;
+}
+.bønder_section .farmer .desc button{
+    font-size: 17px;
+    border: 1px solid;
+}
+.bønder_section .Kristoffer .farmer{
+    position: relative;
+    top: 50px;
+}
+.bønder_section .Kristoffer{
+    position: relative;
+}
+.bønder_section .article{
+    display: flex;
+    gap: 40px;
+    align-items: end;
+}
+.bønder_section .article .desc {
+    padding-bottom: 100px;
+    padding-left: 340px; 
+    text-align: end;
+}
+.bønder_section .article .desc h3{
+    font-size: 40px;
+    color: #87565B;
+}
+.bønder_section .article .desc p{
+    padding: 10px 0px;
+    font-size: 17px;
+    color: #333333;
+}
+.bønder_section .article .desc button{
+    font-size: 17px;
+    border: 1px solid;
+}
+/* ---- bønder Section CSS  End ----- */
