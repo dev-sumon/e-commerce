@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+ }
+ .container{
+     max-width: 1368px;
+     padding: 0px 50px;
+     margin: 0 auto;
+     height: 100%;
+ }
+ /* ---- header css satrt ----- */
+ header{
+     background-color: #87565B;
+     margin: 0 auto;
+     padding: 0;
+ }
+ header .header_content {
+     display: flex;
+     /* grid-template-columns: 1fr 1fr 1fr; */
+     justify-content: space-between;
+     justify-items: center;
+     align-items: center;
+     padding: 5px;
+ }
+ header .header_content img{
+     text-align: start;
+ }
+ header .header_content .menu{
+     text-align: center;
+ }
+ header .header_content ul li{
+     list-style: none;
+     display: inline-block;
+     margin-right: 20px;
+     font-size: 18px;
+ }
+ header .header_content ul li:last-child{
+     margin-right: 0px;
+ }
+ header .header_content a{
+     text-decoration: none;
+     color: #fff;
+ }
+ header .header_content .icon{
+     text-align: right;
+ }
+ header .header_content .icon i{
+     color: #fff;
+ }
+ header .header_content .icon .fa-user{
+     padding: 5px;
+ }
+ header .header_content .icon input{
+     width: 50px;
+ }
+ header .header_content .icon input:focus{
+     outline: none;
+ }
+  /* ---- header css end ----- */
+  /* ----- bake_section css start ---- */
