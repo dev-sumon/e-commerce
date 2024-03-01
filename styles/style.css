@@ -344,9 +344,10 @@ header .header_content .icon input:focus{
 .footer_section .footer_top{
     background-color: #87565B;
 }
-/* .footer_section .footer_top img{
+.footer_section .footer_top .footer_top_image img{
     width: 100%;
-} */
+    background-color: #87565B;
+} 
 .footer_section .footer_top .contect{
     display: flex;
     justify-content: space-between;
