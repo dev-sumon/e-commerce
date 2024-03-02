@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+ }
+ .container{
+     max-width: 1368px;
+     padding: 0px 50px;
+     margin: 0 auto;
+     height: 100%;
+ }
+ /* ---- header css satrt ----- */
+ header{
+     background-color: #87565B;
+     margin: 0 auto;
+     padding: 0;
+ }
+ header .header_content {
+     display: flex;
+     /* grid-template-columns: 1fr 1fr 1fr; */
+     justify-content: space-between;
+     justify-items: center;
+     align-items: center;
+     padding: 5px;
+ }
+ header .header_content img{
+     text-align: start;
+ }
+ header .header_content .menu{
+     text-align: center;
+ }
+ header .header_content ul li{
+     list-style: none;
+     display: inline-block;
+     margin-right: 20px;
+     font-size: 18px;
+ }
+ header .header_content ul li:last-child{
+     margin-right: 0px;
+ }
+ header .header_content a{
+     text-decoration: none;
+     color: #fff;
+ }
+ header .header_content .icon{
+     text-align: right;
+ }
+ header .header_content .icon i{
+     color: #fff;
+ }
+ header .header_content .icon .fa-user{
+     padding: 5px;
+ }
+ header .header_content .icon input{
+     width: 50px;
+ }
+ header .header_content .icon input:focus{
+     outline: none;
+ }
+ /* ---- header css end ----- */
+ /* ---- banner_section css start ---- */
+ .banner_section{
+    background-image: url(../images/kornarter.jpg);
+    background-size: 100% 100%;
+    height: 454px;
+    background-repeat: no-repeat;
+ }
+ /* ---- banner_section css end ---- */
+ /* ---- urkorn section css start ---- */ 
+ .urkorn_section{
+    margin: 50px 0px;
+ }
+ .urkorn_section .content{
+    display: flex;
+    gap: 100px;
+    /* align-items: center; */
+    padding: 0px 100px;
+ }
+ .urkorn_section .content .title{
+    background-image: url(../images/Group\ 927.jpg);
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    height: 480px;
+    object-fit: cover;
+ }
+ .urkorn_section .content .title h5{
+    font-size: 32px;
+    color: #333333;
+ } 
+ .urkorn_section .content .title h3{
+    font-size: 56px;
+    color: #87565B;
+ }
+ .urkorn_section .content .desc p{
+    font-size: 23px;
+    color: #333333;
+    max-width: 85%;
+ }
+ /* ---- urkorn section css end ---- */
+/* ---- spelt emmer section css start ---- */
+.spelt_emmer_section{
+    background-color: #F5F2EC;
+    padding: 100px 0px;
+}
+.spelt_emmer_section .spelt{
+    display: flex;
+    /* align-items: center; */
+    gap: 50px;
+}
+.spelt_emmer_section .spelt .deatils{
+    width: 40%;
+}
+.spelt_emmer_section .spelt .deatils h3{
+    font-size: 40px;
+    color: #87565B;
+    padding-bottom: 20px;
+}
+.spelt_emmer_section .spelt .deatils h5{
+    font-size: 23px;
+    color: #333333;
+    padding-bottom: 40px;
+}
+.spelt_emmer_section .spelt .deatils p{
+    font-size: 17px;
+    color: #333333;
+    padding-bottom: 20px;
+}
+.spelt_emmer_section .spelt .deatils a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #87565B;
+    padding: 10px 25px;
+}
+.spelt_emmer_section .spelt .image img{
+    width: 100%;
+}
+.spelt_emmer_section .emmer{
+    display: flex;
+    gap: 50px;
+}
+.spelt_emmer_section .emmer .image img{
+    width: 40%;
+}
+.spelt_emmer_section .emmer .deatils{
+    width: 40%;
+}
+/* ---- spelt emmer section css end ---- */

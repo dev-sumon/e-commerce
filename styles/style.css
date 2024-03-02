@@ -51,8 +51,26 @@ header .header_content .icon i{
 header .header_content .icon .fa-user{
     padding: 5px;
 }
-header .header_content .icon input{
-    width: 50px;
+header .header_content .icon input {
+    width: 75px;
+    padding: 5px 0px 5px 30px;
+    background-color:  #AB898D;
+    border: none;
+}
+/* header .header_content .icon input{
+    background-color:  #AB898D;
+ } */
+ header .header_content .icon{
+    position: relative;
+}
+header .header_content .search {
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    font-size: 12px;
+}
+header .header_content .icon input::placeholder{
+    color: #ffffff;
 }
 header .header_content .icon input:focus{
     outline: none;
@@ -338,69 +356,51 @@ header .header_content .icon input:focus{
 }
 /* ---- food_blog_section css end ---- */
 /* ---- footer section css start ---- */
-.footer_section{
-    margin: 150px 0px;
-}
-.footer_section .footer_top{
-    background-color: #87565B;
-}
-.footer_section .footer_top .footer_top_image img{
-    width: 100%;
-    background-color: #87565B;
-} 
-.footer_section .footer_top .contect{
+footer{
+    background-image: url(../images/Group\ 2520.jpg);
+    object-fit: cover;
+ }
+ footer .content{
     display: flex;
     justify-content: space-between;
-    justify-items: center;
-    /* text-align: center; */
-    padding: 150px 0px;
-}
-.footer_section .footer_top .contect .info {
+    padding-top: 200px;
+ }
+ footer .content .location{
     color: #fff;
-    padding-bottom: 150px;
-}
-.footer_section .footer_top .contect .info h3{
-    font-size: 23px;
-    padding-bottom: 15px;
-}
-.footer_section .footer_top .contect .info p{
-    font-size: 17px;
-}
-.footer_section .footer_top .contect .logo_icon{
-    text-align: right;
-}
-.footer_section .footer_top .contect .info .dia{
-    width: 35%;
-}
-.footer_section .footer_top .contect .logo_icon .logo_right {
-    padding-bottom: 220px;
-}
-.footer_section .footer_top .contect .logo_icon .logo_right img {
-    width: 60%;
-    /* padding-bottom: 10px; */
-}
-.footer_section .footer_top .contect .logo_icon .icon i{
-        font-size: 35px;
-        width: 40px;
-        height: 40px;
-        line-height: 40px;
-        /* border-radius: 50%; */
-        background-color: #fff;
-        text-align: center;
-        color: #87565b;
-        border-radius: 5px;
-        margin-right: 10px;
+ }
+ footer .content .location a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    line-height: 30px;
+ }
+ footer .content .location2 a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+ }
+ footer .logo_icon{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 50px;
+ }
+ footer .logo_icon i{
+    font-size: 40px;
+    color: #fff;
+    margin-right: 20px;
+ }
+ footer .logo_icon img{
+    /* width: 40%; */
+ }
+ footer .logo_icon .logo{
+    display: flex;
+    gap: 7px;
+ }
+ footer .logo .right_image img{
+    width: 80%;
+ }
 
-}
-.footer_section .footer_top .contect .logo_icon .icon i:last-child{
-    margin-right: 0px;
-}
-.footer_section .footer_top .contect .logo_icon p{
-    color: #fff;
-}
-.footer_section .footer_top .contect .logo img{
-    /* width: 100%; */
-}
 .footer_bottom{
     background-color: #333333;
 }
