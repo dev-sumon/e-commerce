@@ -106,9 +106,10 @@
     display: flex;
     /* align-items: center; */
     gap: 50px;
+    padding: 50px;
 }
 .spelt_emmer_section .spelt .deatils{
-    width: 40%;
+    width: 50%;
 }
 .spelt_emmer_section .spelt .deatils h3{
     font-size: 40px;
@@ -132,17 +133,33 @@
     background-color: #87565B;
     padding: 10px 25px;
 }
-.spelt_emmer_section .spelt .image img{
+.spelt_emmer_section .spelt .image{
+    width: 50%;
+}
+.spelt_emmer_section .spelt .image img {
     width: 100%;
 }
-.spelt_emmer_section .emmer{
-    display: flex;
-    gap: 50px;
-}
-.spelt_emmer_section .emmer .image img{
-    width: 40%;
-}
-.spelt_emmer_section .emmer .deatils{
-    width: 40%;
-}
+
 /* ---- spelt emmer section css end ---- */
+/* news_letter_section css start */
+.news_letter_section{
+    margin: 120px 0px;
+}
+.news_letter_section .content{
+    text-align: center;
+}
+.news_letter_section .content h5{
+    font-size: 24px;
+    color: #333333;
+}
+.news_letter_section .content h3{
+    font-size: 40px;
+    color: #87565B;
+    padding: 15px 0px;
+}
+.news_letter_section .content p {
+    font-size: 23px;
+    color: #333333;
+    padding: 0px 285px;
+}
+/* news_letter_section css end */
