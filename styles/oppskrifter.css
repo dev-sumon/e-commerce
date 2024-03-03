@@ -9,7 +9,7 @@
      margin: 0 auto;
      height: 100%;
  }
-/* ---- header css satrt ----- */
+ /* ---- header css satrt ----- */
 header{
     background-color: #87565B;
     margin: 0 auto;
@@ -76,166 +76,47 @@ header .header_content .icon input:focus{
     outline: none;
 }
 /* ---- header css end ----- */
- /* ---- iteam deatils section css start ----- */
- .iteam_deatils_section{
-    margin: 100px 0px;
- }
- .iteam_deatils_section .content h5{
-    font-size: 32px;
-    padding: 20px 0px;
- }
-  .iteam_deatils_section .content h3{
-    font-size: 56px;
-    padding: 20px 0px;
-    color: #87565B;
- }
- .iteam_deatils_section .content p {
-    font-size: 23px;
-    color: #333333;
-    padding-right: 531px;
+  /* ----- bake_section css start ---- */
+.bake_section{
+    margin: 50px 0px;
 }
-.iteam_deatils_section .content p{
-    font-size: 23px;
-    color: #333333;
- }
- .iteam_deatils_section .iteam_select{
-    padding: 50px 0px;
- }
- .iteam_deatils_section .iteam_select{
+.bake_section .content{
     display: flex;
     justify-content: space-between;
- }
- .iteam_deatils_section .iteam_select .kategori_tags{
-    display: flex;
-    gap: 20px;
- }
- .iteam_deatils_section .iteam_select .kategori_tags .kategori select{
-    padding: 5px 50px 5px 5px;
- }
- .iteam_deatils_section .iteam_select .kategori_tags .tags select {
-    padding: 5px 50px 5px 5px;
 }
- .iteam_deatils_section .iteam_select  .sortering select{
-    padding: 5px 50px 5px 5px;
- }
-  /* ---- iteam deatils section css end ----- */
-  /* ---- prodcut Section CSS  Start ----- */
-.prodcut_section {
-    margin-top: 50px;
-    margin-bottom: 150px;
-}
-.prodcut_section .product_iteam {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 35px;
-
-}
-.prodcut_section .product_iteam .iteam {
-    padding: 15px 20px 10px 20px;
-    background-color: #F8F5EF;
-    position: relative;
-}
-.prodcut_section .product_iteam .iteam .discount {
-    position: absolute;
-    right: 5px;
-    top: 1%;
-    display: inline-block;
-    font-size: 20px;
-    height: 60px;
-    width: 60px;
-    line-height: 60px;
-    border-radius: 50%;
-    background-color: #87565b;
-    text-align: center;
-    color: #FFFFFF;
-}
-.prodcut_section .product_iteam .iteam img{
-    width: 100%;
-}
-.prodcut_section .product_iteam .iteam_desc a{
-    text-decoration: none;
-    color: #333333;
-    padding: 5px 0px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 23px;
-
-}
-.prodcut_section .product_iteam .iteam_desc p{
-    padding: 5px 0px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 23px;
+.bake_section .content h5{
+    font-size: 32px;
     color: #333333;
 }
-.prodcut_section .product_iteam .iteam_desc span{
-    padding: 5px 0px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 17px;
+.bake_section .content h3{
+    font-size: 56px;
     color: #87565B;
+}
+.bake_section .select {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 52px;
+    align-items: end;
+    
+}
+.bake_section .select select {
+    padding: 5px 30px 5px 5px;
+}
+  /* ----- bake_section css end ---- */
+  /* ---- food_blog_section css start ---- */
 
-}
-.prodcut_section .product_iteam .iteam_desc del{
-  padding-left: 10px;
-  color: #707070;
-
-}
-.prodcut_section .next_page{
-    text-align: center;
-    padding-top: 30px;
-}
-.prodcut_section .next_page span {
-    margin-right: 20px;
-    border-radius: 50%;
-    border: 1px solid #333333;
-    padding: 15px 18px;
-}
-.prodcut_section .next_page span:last-child{
-    margin-right: 0;
-}
-/* .prodcut_section .next_page s{
-    margin-right: 20px;
-} */
-/* ---- prodcut Section CSS  end ----- */
-/* ---- food_blog_section css start ---- */
-.food_blog_section{
+  .food_blog_section{
     margin: 150px 0px;
-    background-color: #F5F1EB;
+    /* background-color: #F5F1EB; */
     padding: 100px 0px;
 }
-.food_blog_section .food_title {
-    display: flex;
-    justify-content: space-between;
+.food_blog_section .food_iteam {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
     padding-bottom: 20px;
     align-items: center;
 }
-.food_blog_section .food_title h3{
-    font-size: 40px;
-    color: #87565B;
-}
-/* .food_blog_section .food_title button{
-    border: none;
-} */
-.food_blog_section .food_title a{
-    text-decoration: none;
-    font-size: 17px;
-    line-height: 20px;
-    color: #333333;
-    padding: 5px;
-    border-bottom: 3px solid #87565B;
-   
-}
-.food_blog_section .food_title a::before{
-    content: '';
-    
-}
-.food_blog_section .food_iteam{
-    display: flex;
-    justify-content: space-between;
-    column-gap: 50px;
-}
-
 .food_blog_section .food_iteam .iteam img{
     width: 100%;
     display: block;
@@ -259,8 +140,8 @@ header .header_content .icon input:focus{
 .food_blog_section .food_iteam .iteam .desc .text p{
     padding-top: 10px;
 }
-/* ---- food_blog_section css end ---- */
-/* ---- footer section css start ---- */
+  /* ---- food_blog_section css end ---- */
+  /* ---- footer section css start ---- */
 footer{
     background-image: url(../images/Group\ 2520.jpg);
     object-fit: cover;
@@ -295,7 +176,6 @@ footer{
     color: #fff;
     margin-right: 20px;
  }
-
  footer .logo_icon .logo{
     display: flex;
     gap: 7px;

@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+ }
+ .container{
+     max-width: 1368px;
+     padding: 0px 50px;
+     margin: 0 auto;
+     height: 100%;
+ }
+ /* ---- header css satrt ----- */
+ header{
+     background-color: #87565B;
+     margin: 0 auto;
+     padding: 0;
+ }
+ header .header_content {
+     display: flex;
+     /* grid-template-columns: 1fr 1fr 1fr; */
+     justify-content: space-between;
+     justify-items: center;
+     align-items: center;
+     padding: 5px;
+ }
+ header .header_content img{
+     text-align: start;
+ }
+ header .header_content .menu{
+     text-align: center;
+ }
+ header .header_content ul li{
+     list-style: none;
+     display: inline-block;
+     margin-right: 20px;
+     font-size: 18px;
+ }
+ header .header_content ul li:last-child{
+     margin-right: 0px;
+ }
+ header .header_content a{
+     text-decoration: none;
+     color: #fff;
+ }
+ header .header_content .icon{
+     text-align: right;
+ }
+ header .header_content .icon i{
+     color: #fff;
+ }
+ header .header_content .icon .fa-user{
+     padding: 5px;
+ }
+ header .header_content .icon input {
+     width: 75px;
+     padding: 5px 0px 5px 30px;
+     background-color:  #AB898D;
+     border: none;
+ }
+ /* header .header_content .icon input{
+     background-color:  #AB898D;
+  } */
+  header .header_content .icon{
+     position: relative;
+ }
+ header .header_content .search {
+     position: absolute;
+     top: 7px;
+     left: 5px;
+     font-size: 12px;
+ }
+ header .header_content .icon input::placeholder{
+     color: #ffffff;
+ }
+ header .header_content .icon input:focus{
+     outline: none;
+ }
+ /* ---- header css end ----- */
+ /* ----- banner_section css start ---- */
+ .banner_section{
+    background-image: url(../images/kornarter.jpg);
+    background-size: 100% 100%;
+    height: 454px;
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+ }
+  /* ----- banner_section css end ---- */ 
+   /* ----- sigdal_moll css start ---- */
+  .sigdal_molle{
+    margin: 50px 0px;
+ }
+ .sigdal_molle .content{
+    display: flex;
+    gap: 100px;
+    /* align-items: center; */
+    padding: 0px 100px;
+ }
+ .sigdal_molle .content .title{
+    background-image: url(../images/Group\ 927.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+ }
+ .sigdal_molle .content .title{
+    width: 30%;
+ }
+ .sigdal_molle .content .title h5{
+    font-size: 32px;
+    color: #333333;
+ } 
+ .sigdal_molle .content .title h3 {
+    font-size: 50px;
+    color: #87565B;
+}
+ .sigdal_molle .content .desc{
+    width: 70%;
+ }
+ .sigdal_molle .content .desc p{
+    font-size: 23px;
+    color: #333333;
+    max-width: 85%;
+    margin-bottom: 30px;
+ }
+.sigdal_molle .content .desc span{
+    font-size: 17px;
+    color: #333333;
+    max-width: 85%;
+ }
+ /* ---- urkorn section css end ---- */
+ /* ---- våre_bønder_section css start ----- */
+.våre_bønder_section{
+    background-color: #F5F2EC;
+}
+.våre_bønder_section .main_column{
+    display: flex;
+    align-items: center;
+}
+.våre_bønder_section .main_column .left_column {
+    width: 50%;
+    padding: 0px 65px;
+}
+.våre_bønder_section .main_column .left_column h6{
+    font-size: 24px;
+    color: #333333;
+}
+.våre_bønder_section .main_column .left_column h3{
+    font-size: 40px;
+    color: #87565B;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+.våre_bønder_section .main_column .left_column p{
+    font-size: 17px;
+    color: #333333;
+}
+.våre_bønder_section .main_column .right_column{
+    width: 50%;
+    text-align: end;
+    padding: 100px 0px;
+}
+ /* ---- våre_bønder_section css end ----- */
+ /* bodens navn css start */
+ .bodens_navn_section{
+    margin: 150px 0px;
+ }
+ .bodens_navn_section .cart_iteam{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+ }
+ .bodens_navn_section .cart_iteam .iteam{
+    text-align: center;
+    padding: 0px 50px;
+ }
+ .bodens_navn_section .cart_iteam .iteam .image{
+    padding-bottom: 20px;
+ }
+ .bodens_navn_section .cart_iteam .iteam a{
+    text-decoration: none;
+    color: #87565B;
+    font-size: 24px;
+ } 
+.bodens_navn_section .cart_iteam .iteam p{
+    color: #333333;
+    font-size: 17px;
+    padding-top: 20px;
+ }
+ /* bodens navn css end */
+ /* bonder artikkel css start*/
+ .bonder_artikkel{
+    background-color: #F5F2EC;
+    margin: 150px 0px;
+    padding: 100px 0px;
+ }
+ .bonder_artikkel .bonder{
+    display: flex;
+    gap: 50px;
+ }
+ .bonder_artikkel .bonder .image{
+    width: 50%;
+ }
+ .bonder_artikkel .bonder .image img{
+    width: 100%;
+ }
+ .bonder_artikkel .bonder .deatils {
+    width: 50%;
+    padding-right: 165px;
+}
+ .bonder_artikkel .bonder .deatils h6{
+   font-size: 24px;
+   color: #333333;
+ }
+ .bonder_artikkel .bonder .deatils h3{
+   font-size: 40px;
+   color: #87565B;
+   padding-top: 10px;
+   padding-bottom: 20px;
+ }
+  .bonder_artikkel .bonder .deatils p{
+   font-size: 17px;
+   color: #333333;
+   padding-bottom: 10px;
+ }
+   .bonder_artikkel .bonder .deatils a{
+    text-decoration: none;
+    color: #333333;
+   font-size: 17px;
+   border-bottom: 1px solid #87565B;
+ }
+
+ .bonder_artikkel .artikkel{
+    display: flex;
+    gap: 50px;
+    align-items: end;
+ }
+ .bonder_artikkel .artikkel .image{
+    width: 50%;
+ }
+ .bonder_artikkel .artikkel .image img{
+    width: 100%;
+ }
+ .bonder_artikkel .artikkel .deatils {
+    width: 50%;
+    text-align: end;
+    padding-left: 165px;
+}
+ .bonder_artikkel .artikkel .deatils h6{
+   font-size: 24px;
+   color: #333333;
+ }
+ .bonder_artikkel .artikkel .deatils h3{
+   font-size: 40px;
+   color: #87565B;
+   padding-top: 10px;
+   padding-bottom: 20px;
+ }
+  .bonder_artikkel .artikkel .deatils p{
+   font-size: 17px;
+   color: #333333;
+   padding-bottom: 10px;
+ }
+   .bonder_artikkel .artikkel .deatils a{
+    text-decoration: none;
+    color: #333333;
+   font-size: 17px;
+   border-bottom: 1px solid #87565B;
+ }
+ /* ---- bonder artikkel css end ---- */
+ /* ---- natur_section css start ---- */
+ .natur_section{
+    margin: 150px 0px;
+ }
+ .natur_section .main_column{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+ }
+ .natur_section .main_column .right_column .deatils h6{
+    font-size: 24px;
+    color: #333333;
+ }
+ .natur_section .main_column .right_column .deatils h3{
+    font-size: 40px;
+    color: #87565B;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+ }
+ .natur_section .main_column .right_column .deatils p{
+    font-size: 17px;
+    color: #333333;
+    padding-bottom: 10px;
+    
+ }
+ .natur_section .main_column .right_column .deatils a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #333333;
+    border-bottom: 2px solid #87565B;
+    
+ }
+ /* ---- natur_section css end ---- */
+ /* ---- footer section css start ---- */
+footer{
+    background-image: url(../images/Group\ 2520.jpg);
+    object-fit: cover;
+ }
+ footer .content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+ }
+ footer .content .location{
+    color: #fff;
+ }
+ footer .content .location a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    line-height: 30px;
+ }
+ footer .content .location2 a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+ }
+ footer .logo_icon{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 50px;
+ }
+ footer .logo_icon i{
+    font-size: 40px;
+    color: #fff;
+    margin-right: 20px;
+ }
+ footer .logo_icon img{
+    /* width: 40%; */
+ }
+ footer .logo_icon .logo{
+    display: flex;
+    gap: 7px;
+ }
+ footer .logo .right_image img{
+    width: 80%;
+ }
+
+.footer_bottom{
+    background-color: #333333;
+}
+.footer_bottom .iteam{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0px;
+    align-items: center;
+}
+.footer_bottom .iteam a{
+    /* text-decoration: none; */
+    display: block;
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 17px;
+}
+.footer_bottom .logo img{
+    margin-right: 10px;
+}
+.footer_bottom .top_icon{
+    text-align: right;
+    /* margin-top: 50%; */
+}
+.footer_bottom .top_icon i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #626262;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+.footer_bottom .top_icon p{
+    color: #fff;
+
+}
+/* ---- footer section css start ---- */
+/* ---- navbar css start ---- */
+nav{
+    background-color: #333333;
+}
+nav .iteam{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+}
+nav .iteam .personvern a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+}
+nav .iteam  .logo img{
+    margin-right: 20px;
+}
+nav .iteam .laget a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #ffffff;
+}
+nav .iteam .top_icon{
+    text-align: center;
+    color: #ffffff;
+}
+nav .iteam .top_icon a i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #5C5C5C;
+    text-align: center;
+    font-size: 48px;
+    color: #ffffff;
+}
+/* ---- navbar css end ---- */

@@ -263,9 +263,11 @@ header .header_content .icon input:focus{
     font-size: 17px;
     color: #333333;
 }
-.bønder_section .farmer .desc button{
+.bønder_section .farmer .desc a{
+    text-decoration: none;
+    color: #333333;
     font-size: 17px;
-    border: 1px solid;
+    border-bottom: 1px solid #87565B;
 }
 .bønder_section .Kristoffer .farmer{
     position: relative;
@@ -293,9 +295,11 @@ header .header_content .icon input:focus{
     font-size: 17px;
     color: #333333;
 }
-.bønder_section .article .desc button{
+.bønder_section .article .desc a{
+    text-decoration: none;
+    color: #333333;
     font-size: 17px;
-    border: 1px solid;
+    border-bottom: 1px solid #87565B;
 }
 /* ---- bønder Section CSS  End ----- */
 /* ---- food_blog_section css start ---- */
@@ -352,7 +356,13 @@ header .header_content .icon input:focus{
     color: #fff;
 }
 .food_blog_section .food_iteam .iteam .desc .text h3{
-    padding-bottom: 8px;
+    /* padding-bottom: 8px; */
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+    border-radius: 5px;
+}
+.food_blog_section .food_iteam .iteam .desc .text p{
+    padding-top: 10px;
 }
 /* ---- food_blog_section css end ---- */
 /* ---- footer section css start ---- */
@@ -389,9 +399,6 @@ footer{
     font-size: 40px;
     color: #fff;
     margin-right: 20px;
- }
- footer .logo_icon img{
-    /* width: 40%; */
  }
  footer .logo_icon .logo{
     display: flex;
@@ -467,13 +474,13 @@ nav .iteam .top_icon{
     text-align: center;
     color: #ffffff;
 }
-nav .iteam .top_icon a i{
+nav .iteam .top_icon a i {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     background-color: #5C5C5C;
     text-align: center;
-    font-size: 40px;
+    font-size: 48px;
     color: #ffffff;
 }
 /* ---- navbar css end ---- */
