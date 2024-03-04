@@ -3,6 +3,22 @@
    padding: 0; 
    box-sizing: border-box;
 }
+/* @font-face{
+    font-family: 'DIN';
+    src: url(../font/din-font/DIN.ttf),
+        url(../font/din-font/DIN\ Bold.ttf);
+        
+}
+@font-face{
+    font-family: 'Bellfort Press';
+    src: url(../font/Bellfort-Press/BellfortDrawRough-Bold.otf);
+        
+}
+@font-face{
+    font-family: 'Blacksword';
+    src: url(../font/Blacksword/Blacksword.otf);
+        
+} */
 .container{
     max-width: 1368px;
     padding: 0px 50px;
@@ -39,6 +55,8 @@ header .header_content ul li:last-child{
     margin-right: 0px;
 }
 header .header_content a{
+    font-family: 'DIN';
+    font-weight: 400;
     text-decoration: none;
     color: #fff;
 }
@@ -117,6 +135,7 @@ header .header_content .icon input:focus{
 .banner_section .conetnt h3{
     font-size: 56px;
     color: #fff;
+    font-family: 'Bellfort Press';
     padding: 20px 0;
 }
 .banner_section .conetnt button{
@@ -205,6 +224,7 @@ header .header_content .icon input:focus{
 }
 .reasons_section .reasons_totle p{
     font-size: 24px;
+    font-family: 'Blacksword';
     color: #333333;
 }
 .reasons_section .reasons_totle h3 {

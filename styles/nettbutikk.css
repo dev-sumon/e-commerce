@@ -128,22 +128,23 @@ header .header_content .icon input:focus{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 35px;
-
+    row-gap: 50px;
 }
 .prodcut_section .product_iteam .iteam {
-    padding: 15px 20px 10px 20px;
+    padding: 20px 20px 10px 20px;
     background-color: #F8F5EF;
     position: relative;
+    border-radius: 5px;
 }
 .prodcut_section .product_iteam .iteam .discount {
     position: absolute;
     right: 5px;
     top: 1%;
     display: inline-block;
-    font-size: 20px;
-    height: 60px;
-    width: 60px;
-    line-height: 60px;
+    font-size: 15px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
     border-radius: 50%;
     background-color: #87565b;
     text-align: center;

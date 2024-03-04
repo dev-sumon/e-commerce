@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+ }
+ .container{
+     max-width: 1368px;
+     padding: 0px 50px;
+     margin: 0 auto;
+     height: 100%;
+ }
+ /* ---- header css satrt ----- */
+ header{
+     background-color: #87565B;
+     margin: 0 auto;
+     padding: 0;
+ }
+ header .header_content {
+     display: flex;
+     /* grid-template-columns: 1fr 1fr 1fr; */
+     justify-content: space-between;
+     justify-items: center;
+     align-items: center;
+     padding: 5px;
+ }
+ header .header_content img{
+     text-align: start;
+ }
+ header .header_content .menu{
+     text-align: center;
+ }
+ header .header_content ul li{
+     list-style: none;
+     display: inline-block;
+     margin-right: 20px;
+     font-size: 18px;
+ }
+ header .header_content ul li:last-child{
+     margin-right: 0px;
+ }
+ header .header_content a{
+     text-decoration: none;
+     color: #fff;
+ }
+ header .header_content .icon{
+     text-align: right;
+ }
+ header .header_content .icon i{
+     color: #fff;
+ }
+ header .header_content .icon .fa-user{
+     padding: 5px;
+ }
+ header .header_content .icon input {
+     width: 75px;
+     padding: 5px 0px 5px 30px;
+     background-color:  #AB898D;
+     border: none;
+ }
+ /* header .header_content .icon input{
+     background-color:  #AB898D;
+  } */
+  header .header_content .icon{
+     position: relative;
+ }
+ header .header_content .search {
+     position: absolute;
+     top: 7px;
+     left: 5px;
+     font-size: 12px;
+ }
+ header .header_content .icon input::placeholder{
+     color: #ffffff;
+ }
+ header .header_content .icon input:focus{
+     outline: none;
+ }
+ /* ---- header css end ----- */
+ /* ---- top_section css start---- */
+ .top_section {
+    background-color: #F8F5EF;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+ .top_section .thank_you h2{
+    text-align: center;
+    font-size: 56px;
+    color: #87565B;
+ }
+ /* ---- top_section css end---- */
+ /* ---- news_letter_section css start ---- */
+ .news_letter_section{
+    margin: 100px 0px;
+ }
+ .news_letter_section .content {
+    padding: 0px 440px;
+    /* text-align: center; */
+}
+ .news_letter_section .content a{
+    text-align: center;
+ }
+ .news_letter_section .button{
+    padding-top: 50px;
+    text-align: center;
+ }
+ .news_letter_section .button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: #87565B;
+    border-radius: 5px;
+ }
+ /* ---- news_letter_section css end ---- */
+ /* ---- food_blog_section css start ---- */
+.food_blog_section{
+    margin-top: 150px;
+    background-color: #F5F1EB;
+    padding: 100px 0px;
+}
+.food_blog_section .food_title {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    align-items: center;
+}
+.food_blog_section .food_title h3{
+    font-size: 40px;
+    color: #87565B;
+}
+/* .food_blog_section .food_title button{
+    border: none;
+} */
+.food_blog_section .food_title a{
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 20px;
+    color: #333333;
+    padding: 5px;
+    border-bottom: 3px solid #87565B;
+   
+}
+.food_blog_section .food_title a::before{
+    content: '';
+    
+}
+.food_blog_section .food_iteam{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+
+.food_blog_section .food_iteam .iteam img{
+    width: 100%;
+    display: block;
+}
+.food_blog_section .food_iteam .iteam .desc{
+    position: relative;
+
+}
+.food_blog_section .food_iteam .iteam .desc .text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translate(20%, -50%);
+    color: #fff;
+}
+.food_blog_section .food_iteam .iteam .desc .text h3{
+    /* padding-bottom: 8px; */
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+    border-radius: 5px;
+}
+.food_blog_section .food_iteam .iteam .desc .text p{
+    padding-top: 10px;
+}
+/* ---- food_blog_section css end ---- */
+/* ---- footer section css start ---- */
+footer{
+    background-image: url(../images/Group\ 25211.png);
+    object-fit: cover;
+    background-color: #F8F5EF;
+ }
+ footer .content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+ }
+ footer .content .location{
+    color: #fff;
+ }
+ footer .content .location a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    line-height: 30px;
+ }
+ footer .content .location2 a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+ }
+ footer .logo_icon{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 50px;
+ }
+ footer .logo_icon i{
+    font-size: 40px;
+    color: #fff;
+    margin-right: 20px;
+ }
+
+ footer .logo_icon .logo{
+    display: flex;
+    gap: 7px;
+ }
+ footer .logo .right_image img{
+    width: 80%;
+ }
+
+.footer_bottom{
+    background-color: #333333;
+}
+.footer_bottom .iteam{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0px;
+    align-items: center;
+}
+.footer_bottom .iteam a{
+    /* text-decoration: none; */
+    display: block;
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 17px;
+}
+.footer_bottom .logo img{
+    margin-right: 10px;
+}
+.footer_bottom .top_icon{
+    text-align: right;
+    /* margin-top: 50%; */
+}
+.footer_bottom .top_icon i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #626262;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+.footer_bottom .top_icon p{
+    color: #fff;
+
+}
+/* ---- footer section css start ---- */
+/* ---- navbar css start ---- */
+nav{
+    background-color: #333333;
+}
+nav .iteam{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+}
+nav .iteam .personvern a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+}
+nav .iteam  .logo img{
+    margin-right: 20px;
+}
+nav .iteam .laget a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #ffffff;
+}
+nav .iteam .top_icon{
+    text-align: center;
+    color: #ffffff;
+}
+nav .iteam .top_icon a i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #5C5C5C;
+    text-align: center;
+    font-size: 48px;
+    color: #ffffff;
+}
+/* ---- navbar css end ---- */

@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+ }
+ @font-face{
+    font-family: 'DIN';
+    src: url(../font/din-font/DIN.ttf),
+        url(../font/din-font/DIN\ Bold.ttf);
+        
+}
+ .container{
+     max-width: 1368px;
+     padding: 0px 50px;
+     margin: 0 auto;
+     height: 100%;
+ }
+ /* ---- header css satrt ----- */
+ header{
+     background-color: #87565B;
+     margin: 0 auto;
+     padding: 0;
+ }
+ header .header_content {
+     display: flex;
+     /* grid-template-columns: 1fr 1fr 1fr; */
+     justify-content: space-between;
+     justify-items: center;
+     align-items: center;
+     padding: 5px;
+ }
+ header .header_content img{
+     text-align: start;
+ }
+ header .header_content .menu{
+     text-align: center;
+ }
+ header .header_content ul li{
+     list-style: none;
+     display: inline-block;
+     margin-right: 20px;
+     font-size: 18px;
+ }
+ header .header_content ul li:last-child{
+     margin-right: 0px;
+ }
+ header .header_content a{
+     text-decoration: none;
+     color: #fff;
+     font-family: 'DIN';
+     font-weight: normal;
+ }
+ header .header_content .icon{
+     text-align: right;
+ }
+ header .header_content .icon i{
+     color: #fff;
+ }
+ header .header_content .icon .fa-user{
+     padding: 5px;
+ }
+ header .header_content .icon input {
+     width: 75px;
+     padding: 5px 0px 5px 30px;
+     background-color:  #AB898D;
+     border: none;
+ }
+ /* header .header_content .icon input{
+     background-color:  #AB898D;
+  } */
+  header .header_content .icon{
+     position: relative;
+ }
+ header .header_content .search {
+     position: absolute;
+     top: 7px;
+     left: 5px;
+     font-size: 12px;
+ }
+ header .header_content .icon input::placeholder{
+     color: #ffffff;
+ }
+ header .header_content .icon input:focus{
+     outline: none;
+ }
+ /* ---- header css end ----- */
+ /* ---- payment_section css start ---- */
+ .payment_section{
+    margin: 150px 0px;
+ }
+ .payment_section .main_column{
+    display: flex;
+    justify-content: space-between;
+ }
+.payment_section .main_column .right_column h2{
+   padding-bottom: 20px;
+ }
+ .payment_section .main_column .right_column .iteam1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+ .payment_section .main_column .right_column .iteam1 .title{
+    display: flex;
+    gap: 30px;
+ }
+ /* ---- payment_section css end ---- */
