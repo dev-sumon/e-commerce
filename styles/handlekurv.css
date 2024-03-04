@@ -92,16 +92,14 @@
     display: flex;
     justify-content: space-between;
  }
-.payment_section .main_column .right_column h2{
-   padding-bottom: 20px;
+ .payment_section .main_column .left_column{
+    width: 50%;
  }
- .payment_section .main_column .right_column .iteam1 {
+.payment_section .main_column .right_column{
+    width: 50%;
+ }
+.payment_section .main_column .right_column .main .product_itam{
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-}
- .payment_section .main_column .right_column .iteam1 .title{
-    display: flex;
-    gap: 30px;
  }
  /* ---- payment_section css end ---- */
