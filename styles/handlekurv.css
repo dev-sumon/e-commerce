@@ -305,3 +305,40 @@ footer{
 
 }
 /* ---- footer section css start ---- */
+nav{
+    background-color: #333333;
+}
+nav .iteam{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+}
+nav .iteam .personvern a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+}
+nav .iteam  .logo img{
+    margin-right: 20px;
+}
+nav .iteam .laget a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #ffffff;
+}
+nav .iteam .top_icon{
+    text-align: center;
+    color: #ffffff;
+}
+nav .iteam .top_icon a i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #5C5C5C;
+    text-align: center;
+    font-size: 48px;
+    color: #ffffff;
+}
+/* ---- navbar css end ---- */
