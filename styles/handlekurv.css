@@ -224,3 +224,84 @@
     padding-top: 40px;
  }
  /* ---- payment_section css end ---- */
+ /* ---- footer section css start ---- */
+footer{
+    background-image: url(../images/Group\ 2520.jpg);
+    object-fit: cover;
+ }
+ footer .content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+ }
+ footer .content .location{
+    color: #fff;
+ }
+ footer .content .location a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    line-height: 30px;
+ }
+ footer .content .location2 a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+ }
+ footer .logo_icon{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 50px;
+ }
+ footer .logo_icon i{
+    font-size: 40px;
+    color: #fff;
+    margin-right: 20px;
+ }
+ footer .logo_icon .logo{
+    display: flex;
+    gap: 7px;
+ }
+ footer .logo .right_image img{
+    width: 80%;
+ }
+
+.footer_bottom{
+    background-color: #333333;
+}
+.footer_bottom .iteam{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0px;
+    align-items: center;
+}
+.footer_bottom .iteam a{
+    /* text-decoration: none; */
+    display: block;
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 17px;
+}
+.footer_bottom .logo img{
+    margin-right: 10px;
+}
+.footer_bottom .top_icon{
+    text-align: right;
+    /* margin-top: 50%; */
+}
+.footer_bottom .top_icon i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #626262;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+.footer_bottom .top_icon p{
+    color: #fff;
+
+}
+/* ---- footer section css start ---- */
