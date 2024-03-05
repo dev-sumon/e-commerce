@@ -74,3 +74,46 @@
      outline: none;
  }
  /* ---- header css end ----- */
+ /* ---- discount_product css start ---- */
+ .discount_product{
+    background-color: #F8F5EF;
+ }
+ .discount_product .main_column {
+    display: flex;
+    gap: 80px;
+    padding: 100px;
+}
+ .discount_product .main_column .image_column{
+    width: 50%;
+    
+ } 
+ .discount_product .main_column .image_column img{
+    /* width: 100%; */
+ }
+.discount_product .main_column .product_deatils{
+    width: 50%;
+    padding-top: 70px;
+ }
+ .discount_product .main_column .product_deatils span{
+    font-size: 32px;
+    color: #333333;
+    padding-top: 20px;
+ }
+.discount_product .main_column .product_deatils h3{
+    font-size: 56px;
+    color: #87565B;
+    padding-top: 10px;
+    padding-bottom: 50px;
+ }
+ .discount_product .main_column .product_deatils a{
+    text-decoration: none;
+    padding: 15px 40px;
+    color: #fff;
+    background-color: #87565B;
+ }
+ .discount_product .main_column .product_deatils p{
+    font-size: 17px;
+    color: #333333;
+    padding-top: 30px;
+ }
+ /* ---- discount_product css end ---- */
