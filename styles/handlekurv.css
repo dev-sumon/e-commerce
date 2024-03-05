@@ -7,6 +7,7 @@
     font-family: 'DIN';
     src: url(../font/din-font/DIN.ttf),
         url(../font/din-font/DIN\ Bold.ttf);
+
         
 }
  .container{
@@ -94,12 +95,132 @@
  }
  .payment_section .main_column .left_column{
     width: 50%;
+    padding-left: 70px;
  }
 .payment_section .main_column .right_column{
     width: 50%;
+    padding-right: 70px;
  }
 .payment_section .main_column .right_column .main .product_itam{
     display: flex;
     justify-content: space-between;
+    gap: 40px;
+ }
+ .payment_section .main_column .right_column .title{
+    width: 100%;
+    background-color: #F8F5EF;
+    padding-bottom: 30px;
+ }
+ .payment_section .main_column .right_column .title h2{
+    font-size: 32px;
+    color: #87565B;
+    padding: 20px 0px;
+ }
+ .payment_section .main_column .right_column .main{
+    border-bottom: 1px solid #333333;
+    padding: 20px 0px;
+ }
+ .payment_section .main_column .right_column .main .product_itam .image{
+    width: 30%;
+ }
+ .payment_section .main_column .right_column .main .product_itam .image img{
+    width: 100%;
+ }
+ .payment_section .main_column .right_column .main .product_itam .product{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+ }
+ .payment_section .main_column .right_column .main .product_itam .product .speltmel p{
+    padding-top: 20px;
+     padding-bottom: 50px;
+ }
+ .payment_section .main_column .right_column .main .product_itam .product .speltmel i {
+    margin: 0px 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    text-align: center;
+}
+ .payment_section .main_column .right_column .main .product_itam .product .kr i{
+    font-size: 23px;
+    padding-bottom: 80px;
+ }
+ .payment_section .main_column .right_column .main .product_itam .product .kr h4{
+    font-size: 17px;
+ }
+ .payment_section .main_column .right_column .main .product_itam .product .kr h3{
+    color: #87565B;
+ }
+ .payment_section .main_column .right_column .main .product_itam .product .kr del{
+    display: block;
+ }
+ .payment_section .main_column .right_column .rabattkode{
+    border-bottom: 1px solid #333333;
+ }
+ .payment_section .main_column .right_column .rabattkode .code{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+ }
+ .payment_section .main_column .right_column .rabattkode .code h3{
+    font-size: 17px;
+    color: #333333;
+ }
+ .payment_section .main_column .right_column .rabattkode .gavekort {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+ }
+ .payment_section .main_column .right_column .rabattkode .bruk input {
+    margin-right: 15px;
+}
+ .payment_section .main_column .right_column .rabattkode .bruk input:last-child{
+    margin-right: 0px;
+ }
+ .payment_section .main_column .right_column .rabattkode .bruk #code{
+    width: 85%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #333333;
+ }
+ .payment_section .main_column .right_column .rabattkode .bruk .btn{
+    padding: 15px;
+    background-color: #87565B;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+ }
+ .payment_section .main_column .right_column .rabattkode .gavekort h3{
+    font-size: 17px;
+    color: #333333;
+ }
+ .payment_section .main_column .right_column .total_cost{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+ }
+ .payment_section .main_column .right_column .total_cost p{
+    font-size: 17px;
+    padding-bottom: 10px;
+
+ }
+ .payment_section .main_column .right_column .total_cost .iteam_name p{
+    color: #87565B;
+ }
+ .payment_section .main_column .right_column .total_cost span{
+    display: block;
+    padding-bottom: 10px;
+    font-size: 17px;
+ }
+ .payment_section .main_column .right_column .cost p{
+    padding-bottom: 10px;
+ }
+ .payment_section .main_column .right_column .payment_logo{
+    text-align: end;
+    padding-top: 40px;
  }
  /* ---- payment_section css end ---- */
