@@ -40,10 +40,9 @@
      margin-right: 0px;
  }
  header .header_content a{
-     font-family: 'DIN', sans-serif;
-     font-weight: 400;
      text-decoration: none;
      color: #fff;
+     font-size: 18px;
      font-family: 'DIN', sans-serif;
      font-weight: 400;
  }
@@ -93,6 +92,36 @@
     color: #87565B;
  }
  /* banner section css end */
+ /* message section css satrt */
+ .message{
+    margin-bottom: 100px;
+ }
+ .message .text{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+ }
+ .message .btn{
+    display: flex;
+    justify-content: center;
+ }
+ .message .text p{
+    font-size: 17px;
+    color: #333333;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
+    
+ }
+ .message .btn a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #87565B;
+    font-family: 'Bellfort Press', sans-serif;
+    font-weight: 800;
+    padding: 15px 60px;
+    border-radius: 5px;
+}
+ /* message section css end */
  /* ---- footer section css start ---- */
 footer{
     background-image: url(../images/Group\ 2520.jpg);
