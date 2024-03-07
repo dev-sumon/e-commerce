@@ -3,22 +3,10 @@
    padding: 0; 
    box-sizing: border-box;
 }
-/* @font-face{
-    font-family: 'DIN';
-    src: url(../font/din-font/DIN.ttf),
-        url(../font/din-font/DIN\ Bold.ttf);
-        
-}
-@font-face{
-    font-family: 'Bellfort Press';
-    src: url(../font/Bellfort-Press/BellfortDrawRough-Bold.otf);
-        
-}
-@font-face{
-    font-family: 'Blacksword';
-    src: url(../font/Blacksword/Blacksword.otf);
-        
-} */
+/* Din-family */
+
+@import url('https://fonts.googleapis.com/css2?family=DIN&display=swap');
+
 .container{
     max-width: 1368px;
     padding: 0px 50px;
@@ -224,7 +212,8 @@ header .header_content .icon input:focus{
 }
 .reasons_section .reasons_totle p{
     font-size: 24px;
-    font-family: 'Blacksword';
+    font-family: 'Blacksword', sans-serif;
+    font-weight: 400;
     color: #333333;
 }
 .reasons_section .reasons_totle h3 {

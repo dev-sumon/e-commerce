@@ -105,8 +105,8 @@ header .header_content .icon input:focus{
   /* ----- bake_section css end ---- */
   /* ---- food_blog_section css start ---- */
 
-  .food_blog_section{
-    margin: 150px 0px;
+  .food_blog_section {
+    margin: 50px 0px;
     /* background-color: #F5F1EB; */
     padding: 100px 0px;
 }

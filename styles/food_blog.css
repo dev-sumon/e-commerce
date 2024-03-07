@@ -3,6 +3,9 @@
     padding: 0; 
     box-sizing: border-box;
  }
+   /* Din-font */
+   @import url('https://fonts.googleapis.com/css2?family=DIN&display=swap');
+
  .container{
      max-width: 1368px;
      padding: 0px 50px;
@@ -11,52 +14,68 @@
  }
  /* ---- header css satrt ----- */
  header{
-     background-color: #87565B;
-     margin: 0 auto;
-     padding: 0;
- }
- header .header_content {
-     display: flex;
-     /* grid-template-columns: 1fr 1fr 1fr; */
-     justify-content: space-between;
-     justify-items: center;
-     align-items: center;
-     padding: 5px;
- }
- header .header_content img{
-     text-align: start;
- }
- header .header_content .menu{
-     text-align: center;
- }
- header .header_content ul li{
-     list-style: none;
-     display: inline-block;
-     margin-right: 20px;
-     font-size: 18px;
- }
- header .header_content ul li:last-child{
-     margin-right: 0px;
- }
- header .header_content a{
-     text-decoration: none;
-     color: #fff;
- }
+    background-color: #87565B;
+    margin: 0 auto;
+    padding: 0;
+}
+header .header_content {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 5px;
+}
+header .header_content img{
+    text-align: start;
+}
+header .header_content .menu{
+    text-align: center;
+}
+header .header_content ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 18px;
+}
+header .header_content ul li:last-child{
+    margin-right: 0px;
+}
+header .header_content a{
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+}
+header .header_content .icon{
+    text-align: right;
+}
+header .header_content .icon i{
+    color: #fff;
+}
+header .header_content .icon .fa-user{
+    padding: 5px;
+}
+header .header_content .icon input {
+    width: 75px;
+    padding: 5px 0px 5px 30px;
+    background-color:  #AB898D;
+    border: none;
+}
  header .header_content .icon{
-     text-align: right;
- }
- header .header_content .icon i{
-     color: #fff;
- }
- header .header_content .icon .fa-user{
-     padding: 5px;
- }
- header .header_content .icon input{
-     width: 50px;
- }
- header .header_content .icon input:focus{
-     outline: none;
- }
+    position: relative;
+}
+header .header_content .search {
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    font-size: 12px;
+}
+header .header_content .icon input::placeholder{
+    color: #ffffff;
+}
+header .header_content .icon input:focus{
+    outline: none;
+}
   /* ---- header css end ----- */
   /* ----- bake_section css start ---- */
 .bake_section{
@@ -69,10 +88,14 @@
 .bake_section .content h5{
     font-size: 32px;
     color: #333333;
+    font-family: 'Blacksword', sans-serif;
+    font-weight: 400;
 }
 .bake_section .content h3{
     font-size: 56px;
     color: #87565B;
+    font-family: 'Blacksword', sans-serif;
+    font-weight: 400;
 }
 .bake_section .select {
     display: flex;
@@ -88,7 +111,7 @@
   /* ---- food_blog_section css start ---- */
 
   .food_blog_section{
-    margin: 150px 0px;
+    margin: 50px 0px;
     /* background-color: #F5F1EB; */
     padding: 100px 0px;
 }

@@ -3,6 +3,9 @@
     padding: 0; 
     box-sizing: border-box;
  }
+  /* Din-font */
+  @import url('https://fonts.googleapis.com/css2?family=DIN&display=swap');
+
  .container{
      max-width: 1368px;
      padding: 0px 50px;
@@ -38,7 +41,7 @@
      margin-right: 0px;
  }
  header .header_content a{
-     font-family: 'DIN';
+     font-family: 'DIN', sans-serif;
      font-weight: 400;
      text-decoration: none;
      color: #fff;
@@ -97,11 +100,15 @@
  .discount_product .main_column .product_deatils span{
     font-size: 32px;
     color: #333333;
+    font-family: 'Bellfort Press', sans-serif;
+    font-weight: 400;
     padding-top: 20px;
  }
 .discount_product .main_column .product_deatils h3{
     font-size: 56px;
     color: #87565B;
+    font-family: 'Bellfort Press', sans-serif;
+    font-weight: 400;
     padding-top: 10px;
     padding-bottom: 50px;
  }
@@ -110,10 +117,14 @@
     padding: 15px 40px;
     color: #fff;
     background-color: #87565B;
+    font-family: 'Bellfort Press', sans-serif;
+    font-weight: 800;
  }
  .discount_product .main_column .product_deatils p{
     font-size: 17px;
     color: #333333;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
     padding-top: 30px;
  }
  /* ---- discount_product css end ---- */

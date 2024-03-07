@@ -3,6 +3,9 @@
     padding: 0; 
     box-sizing: border-box;
  }
+  /* Din-font */
+  @import url('https://fonts.googleapis.com/css2?family=DIN&display=swap');
+
  .container{
      max-width: 1368px;
      padding: 0px 50px;
@@ -41,6 +44,8 @@ header .header_content ul li:last-child{
 header .header_content a{
     text-decoration: none;
     color: #fff;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
 }
 header .header_content .icon{
     text-align: right;
@@ -84,6 +89,8 @@ header .header_content .icon input:focus{
  .food_iteam_section .iteam a{
     text-decoration: none;
     color: #333333;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
  }
  .food_iteam_section .iteam span{
     margin:  0px 10px;
@@ -104,6 +111,8 @@ header .header_content .icon input:focus{
 .food_blog_section .food_title h3{
     font-size: 40px;
     color: #87565B;
+    font-family: 'Bellfort Press', sans-serif;
+    font-weight: 400;
 }
 /* .food_blog_section .food_title button{
     border: none;
@@ -111,6 +120,8 @@ header .header_content .icon input:focus{
 .food_blog_section .food_title a{
     text-decoration: none;
     font-size: 17px;
+    font-family: 'Bellfort Press', sans-serif;
+    font-weight: 400;
     line-height: 20px;
     color: #333333;
     padding: 5px;
@@ -139,17 +150,21 @@ header .header_content .icon input:focus{
     position: absolute;
     left: 0;
     bottom: 0;
-    transform: translate(20%, -50%);
+    transform: translate(5%, -50%);
     color: #fff;
 }
-.food_blog_section .food_iteam .iteam .desc .text h3{
-    /* padding-bottom: 8px; */
+.food_blog_section .food_iteam .iteam .desc .text a{
+    text-decoration: none;
     background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff;
     padding: 10px;
     border-radius: 5px;
+    font-family: 'DIN', sans-serif;
+    font-weight: 800;
+    font-size: 23px;
 }
 .food_blog_section .food_iteam .iteam .desc .text p{
-    padding-top: 10px;
+    padding-top: 20px;
 }
 /* ---- food_blog_section css end ---- */
 /* ---- top_image_section css start----- */
@@ -187,14 +202,20 @@ header .header_content .icon input:focus{
 .eltefritt_urbrød .main_column .right_column .text p{
     font-size: 23px;
     color: #333333;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
 }
 .eltefritt_urbrød .main_column .left_column h6{
     font-size: 32px;
     color: #333333;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
 } 
 .eltefritt_urbrød .main_column .left_column h3{
     font-size: 56px;
     color: #87565B;
+    font-family: 'Bellfort Press', sans-serif;
+    font-weight: 400;
     padding-top: 10px;
     padding-bottom: 20px;
 }
@@ -215,11 +236,15 @@ header .header_content .icon input:focus{
 .eltefritt_urbrød .main_column .left_column .ingredienser h6{
     font-size: 24px;
     color: #87565B;
+    font-family: 'Bellfort Press', sans-serif;
+    font-weight: 400;
     padding-top: 50px;
 }
 .eltefritt_urbrød .main_column .left_column .ingredienser p{
     font-size: 17px;
     color: #333333;
+    font-family: 'Bellfort Press', sans-serif;
+    font-weight: 400;
     padding-top: 10px;
 }
 .eltefritt_urbrød .main_column .right_column .slik_gjør_du{
@@ -228,6 +253,8 @@ header .header_content .icon input:focus{
 .eltefritt_urbrød .main_column .right_column .slik_gjør_du h6{
     font-size: 24px;
     color: #87565B;
+    font-family: 'Bellfort Press', sans-serif;
+    font-weight: 800;
 }
 .eltefritt_urbrød .main_column .right_column .slik_gjør_du .text{
     display: flex;
@@ -237,6 +264,8 @@ header .header_content .icon input:focus{
 .eltefritt_urbrød .main_column .right_column .slik_gjør_du .text p{
     font-size: 17px;
     color: #333333;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
 }
 .eltefritt_urbrød .main_column .right_column .slik_gjør_du .image{
     padding-top: 50px;
@@ -249,6 +278,8 @@ header .header_content .icon input:focus{
 .eltefritt_urbrød .main_column .right_column .tips h4{
     font-size: 24px;
     color: #87565B;
+    font-family: 'Bellfort Press', sans-serif;
+    font-weight: 800;
     padding-bottom: 20px;
 }
 .eltefritt_urbrød .main_column .right_column .tips .text{
@@ -258,6 +289,8 @@ header .header_content .icon input:focus{
 .eltefritt_urbrød .main_column .right_column .tips .text p{
     font-size: 17px;
     color: #333333;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
     padding-bottom: 20px;
 }
 /* ---- eltefritt_urbrød css end ---- */
@@ -276,15 +309,29 @@ footer{
  footer .content .location{
     color: #fff;
  }
+ footer .content .location h3{
+    font-family: 'DIN', sans-serif;
+    font-weight: 800;
+    font-size: 23px;
+ }
  footer .content .location a{
     text-decoration: none;
     color: #fff;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
     display: block;
     line-height: 30px;
+ }
+ footer .content .location2{
+    text-align: end;
  }
  footer .content .location2 a{
     text-decoration: none;
     color: #fff;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
     display: block;
  }
  footer .logo_icon{
@@ -360,26 +407,37 @@ nav .iteam .personvern a{
     text-decoration: none;
     color: #ffffff;
     font-size: 17px;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
 }
 nav .iteam  .logo img{
     margin-right: 20px;
 }
 nav .iteam .laget a{
     text-decoration: none;
-    font-size: 17px;
+    font-size: 14px;
     color: #ffffff;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
 }
 nav .iteam .top_icon{
     text-align: center;
     color: #ffffff;
 }
-nav .iteam .top_icon a i {
+nav .iteam .top_icon i {
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    line-height: 50px;
     background-color: #5C5C5C;
     text-align: center;
-    font-size: 48px;
+    font-size: 30px;
     color: #ffffff;
+
+}
+nav .iteam .top_icon p{
+    padding-top: 10px;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
 }
 /* ---- navbar css end ---- */
