@@ -3,8 +3,19 @@
     padding: 0; 
     box-sizing: border-box;
  }
- /* Din-font */
- @import url('https://fonts.googleapis.com/css2?family=DIN&display=swap');
+
+ /* Bellfort Press font family */
+ @font-face {
+    font-family: 'Bellfort Press';
+    src: url('path/to/BellfortPress-Regular.woff2') format('woff2'),
+         url('path/to/BellfortPress-Regular.woff') format('woff');
+ }
+ /* Blacksword font family */
+ @font-face {
+    font-family: 'Blacksword';
+    src: url('path/to/Blacksword-Regular.woff2') format('woff2'), 
+         url('path/to/Blacksword-Regular.woff') format('woff'); 
+ }
  .container{
      max-width: 1368px;
      padding: 0px 50px;
@@ -40,8 +51,7 @@
      margin-right: 0px;
  }
  header .header_content a{
-     font-family: 'DIN', sans-serif;
-     font-weight: 400;
+    font-size: 18px;
      text-decoration: none;
      color: #fff;
      font-family: 'DIN', sans-serif;
@@ -80,7 +90,7 @@
  /* ---- header css end ----- */
  /* ---- glemt_section css start ---- */
  .glemt_section{
-    margin: 50px 0px;
+    margin-bottom: 100px;
  }
  .glemt_section .title{
     padding-top: 150px;
@@ -89,8 +99,6 @@
     text-align: center;
  }
  .glemt_section .title h2{
-    font-family: 'Bellfort Press', Arial, sans-serif;
-    font-weight: 400;
     font-size: 56px;
     color: #87565B;
     font-family: 'Bellfort Press';
@@ -103,50 +111,19 @@
     /* height: 100vh; */
     text-align: left;
 }
-
-.glemt_section .e_post {
-    padding: 20px 0px;
-    text-align: left;
-}
-.glemt_section .e_post .note p{
-    font-family: 'DIN', sans-serif;
-    font-weight: 400;
-    font-size: 17px;
-    padding: 15px 0px;
-}
-.glemt_section .input{
-    padding: 20px 0px;
-}
-.glemt_section .input input{
-    width: 400px;
-    height: 40px;
-    padding: 10px;
-}
-.glemt_section .input label{
-    font-family: 'DIN', sans-serif;
-    font-weight: 800;
-    font-size: 17px;
-}
-.glemt_section .button{
-    padding-top: 20px;
-    font-family: 'Bellfort Press';
-    font-weight: 800;
-    font-size: 18px;
-}
-.glemt_section input[type="button"]{
-    font-family: 'Bellfort Press';
-    font-weight: 800;
-    font-size: 18px;
-    background-color: #87565B;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-}
-.glemt_section .massage h5{
+.glemt_section .content{
     text-align: center;
+}
+.glemt_section .content .text {
+    text-align: left;
+    padding: 50px 440px;
+}
+.glemt_section .content .button a{
+    text-decoration: none;
+    color: #000;
     font-family: 'DIN', sans-serif;
-    font-weight: 800;
-    font-size: 17px;
+     font-weight: 800;
+     font-size: 17px;
 }
  /* ---- glemt_section css end ---- */
  /* ---- footer section css start ---- */

@@ -3,8 +3,19 @@
     padding: 0; 
     box-sizing: border-box;
  }
- /* Din-font */
- @import url('https://fonts.googleapis.com/css2?family=DIN&display=swap');
+
+ /* Bellfort Press font family */
+ @font-face {
+    font-family: 'Bellfort Press';
+    src: url('path/to/BellfortPress-Regular.woff2') format('woff2'),
+         url('path/to/BellfortPress-Regular.woff') format('woff');
+ }
+ /* Blacksword font family */
+ @font-face {
+    font-family: 'Blacksword';
+    src: url('path/to/Blacksword-Regular.woff2') format('woff2'), 
+         url('path/to/Blacksword-Regular.woff') format('woff'); 
+ }
  .container{
      max-width: 1368px;
      padding: 0px 50px;
@@ -40,8 +51,7 @@
      margin-right: 0px;
  }
  header .header_content a{
-     font-family: 'DIN', sans-serif;
-     font-weight: 400;
+    font-size: 18px;
      text-decoration: none;
      color: #fff;
      font-family: 'DIN', sans-serif;
@@ -78,77 +88,61 @@
      outline: none;
  }
  /* ---- header css end ----- */
- /* ---- glemt_section css start ---- */
- .glemt_section{
-    margin: 50px 0px;
- }
- .glemt_section .title{
-    padding-top: 150px;
-    padding-bottom: 50px;
+ /* banner_section css start */
+ .banner_section{
     background-color: #F8F5EF;
-    text-align: center;
  }
- .glemt_section .title h2{
-    font-family: 'Bellfort Press', Arial, sans-serif;
+ .banner_section h2{
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    font-family: 'Bellfort Press';
     font-weight: 400;
     font-size: 56px;
     color: #87565B;
-    font-family: 'Bellfort Press';
-    font-weight: 400;
  }
- .glemt_section .container {
+ /* banner_section css end */
+ /* velg_password css start */
+ .velg_password{
+    margin: 70px 0px;
+ }
+.velg_password.container {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 100vh; */
-    text-align: left;
-}
-
-.glemt_section .e_post {
-    padding: 20px 0px;
-    text-align: left;
-}
-.glemt_section .e_post .note p{
+    height: 100;
+ }
+ .velg_password .form{
+        display: flex;
+        justify-content: center;
+ }
+ .velg_password .form label{
+    display: block;
     font-family: 'DIN', sans-serif;
-    font-weight: 400;
-    font-size: 17px;
-    padding: 15px 0px;
-}
-.glemt_section .input{
-    padding: 20px 0px;
-}
-.glemt_section .input input{
-    width: 400px;
-    height: 40px;
-    padding: 10px;
-}
-.glemt_section .input label{
-    font-family: 'DIN', sans-serif;
-    font-weight: 800;
-    font-size: 17px;
-}
-.glemt_section .button{
-    padding-top: 20px;
-    font-family: 'Bellfort Press';
-    font-weight: 800;
-    font-size: 18px;
-}
-.glemt_section input[type="button"]{
-    font-family: 'Bellfort Press';
-    font-weight: 800;
-    font-size: 18px;
+     font-weight: 600;
+     font-size: 17px;
+     padding-top: 20px;
+     padding-bottom: 5px;
+ }
+ .velg_password .form label:first-child{
+    padding-top: 0px;
+ }
+ .velg_password .form input{
+    display: block;
+    width: 350px;
+    height: 50px;
+    padding-left: 10px;
+ }
+ .velg_password .form .btn{
+    margin-top: 20px;
     background-color: #87565B;
     color: #fff;
     border: none;
-    border-radius: 5px;
-}
-.glemt_section .massage h5{
-    text-align: center;
-    font-family: 'DIN', sans-serif;
-    font-weight: 800;
-    font-size: 17px;
-}
- /* ---- glemt_section css end ---- */
+    font-family: 'Bellfort Press';
+    font-weight: 600;
+    font-size: 18px;
+ }
+ /* velg_password css end */
  /* ---- footer section css start ---- */
 footer{
     background-image: url(../images/Group\ 2520.jpg);

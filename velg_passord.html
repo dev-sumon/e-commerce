@@ -6,10 +6,10 @@
     <title>Document</title>
     <!-- font awesome cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- font family Bellfort+Press -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bellfort+Press:wght@400;700&display=swap">
+    <!--Din font family-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DIN:wght@400;700&display=swap">
     <!--custom css-->
-    <link rel="stylesheet" href="styles/glemt_passord.css">
+    <link rel="stylesheet" href="styles/velg_passord.css">
 </head>
 <body>
 <header>
@@ -40,31 +40,23 @@
         </div>
     </div>
 </header>
-<section class="glemt_section">
-        <div class="title">
-            <h2>Glemt passord</h2>
+<section class="banner_section">
+    <div class="container">
+        <h2>Velg passord</h2>
+    </div>
+</section>
+<section class="velg_password">
+    <div class="container">
+        <div class="form">
+            <form action="">
+                <label for="">Passord</label>
+                <input type="password" name="" id="" placeholder="Oppgi nytt passord">
+                <label for="">Bekreft passord</label>
+                <input type="password" name="" id="" placeholder="Bekreft nytt passord">
+                <input type="submit" value="Bytt passord" class="btn">
+            </form>
         </div>
-        <div class="container">
-            <div class="e_post">
-                <div class="note">
-                    <p>
-                        Fyll inn epostadressen du har registrert hos oss så sender <br> vi et nytt passord til deg.
-                    </p>
-                </div>
-                <div class="input">
-                    <form action="">
-                        <label for="">E-post</label> <br> <br>
-                        <input type="email" name="" class="email" placeholder="Oppgi din e-post">
-                        <div class="button">
-                            <input type="button" value="Tilbakestille passord">
-                        </div>
-                    </form>
-                </div>
-                <div class="massage">
-                    <h5>Tilbake til innlogging</h5>
-                </div>
-            </div>
-        </div>
+    </div>
 </section>
 <footer>
     <div class="container">
