@@ -142,11 +142,14 @@
     border: none;
     border-radius: 5px;
 }
-.glemt_section .massage h5{
+.glemt_section .massage a{
+    text-decoration: none;
     text-align: center;
     font-family: 'DIN', sans-serif;
     font-weight: 800;
     font-size: 17px;
+    display: block;
+    color: #333333;
 }
  /* ---- glemt_section css end ---- */
  /* ---- footer section css start ---- */
