@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+ }
+ /* Din-font */
+ @import url('https://fonts.googleapis.com/css2?family=DIN&display=swap');
+ .container{
+     max-width: 1368px;
+     padding: 0px 50px;
+     margin: 0 auto;
+     height: 100%;
+ }
+ /* ---- header css satrt ----- */
+ header{
+     background-color: #87565B;
+     margin: 0 auto;
+     padding: 0;
+ }
+ header .header_content {
+     display: flex;
+     justify-content: space-between;
+     justify-items: center;
+     align-items: center;
+     padding: 5px;
+ }
+ header .header_content img{
+     text-align: start;
+ }
+ header .header_content .menu{
+     text-align: center;
+ }
+ header .header_content ul li{
+     list-style: none;
+     display: inline-block;
+     margin-right: 20px;
+     font-size: 18px;
+ }
+ header .header_content ul li:last-child{
+     margin-right: 0px;
+ }
+ header .header_content a{
+     text-decoration: none;
+     color: #fff;
+     font-size: 18px;
+     font-family: 'DIN', sans-serif;
+     font-weight: 400;
+ }
+ header .header_content .icon{
+     text-align: right;
+ }
+ header .header_content .icon i{
+     color: #fff;
+ }
+ header .header_content .icon .fa-user{
+     padding: 5px;
+ }
+ header .header_content .icon input {
+     width: 75px;
+     padding: 5px 0px 5px 30px;
+     background-color:  #AB898D;
+     border: none;
+ }
+  header .header_content .icon{
+     position: relative;
+ }
+ header .header_content .search {
+     position: absolute;
+     top: 7px;
+     left: 5px;
+     font-size: 12px;
+ }
+ header .header_content .icon input::placeholder{
+     color: #ffffff;
+ }
+ header .header_content .icon input:focus{
+     outline: none;
+ }
+ /* ---- header css end ----- */
+ /* informasjon section css start */
+ .informasjon{
+    padding: 100px 0px;
+    background-color: #F8F5EF;
+ }
+ .informasjon .main_column{
+    display: flex;
+    box-sizing: border-box;
+ }
+ .informasjon .main_column h2{
+    font-size: 40px;
+    color: #87565B;
+    font-family: 'Bellfort Press', sans-serif;
+    font-weight: 400;
+    padding-bottom: 20px;
+ }
+ .informasjon .main_column .left_column{
+    width: 30%;
+ }
+ .informasjon .main_column .left_column p{
+    font-size: 17px;
+    color: #333333;
+    font-family: 'DIN', sans-serif;
+    font-weight: 600;
+ }
+ .informasjon .main_column .left_column a{
+    text-decoration: none;
+    color: #949390;
+    font-size: 17px;
+    display: block;
+    margin-top: 10px;
+    width: 36%;
+    font-family: 'DIN', sans-serif;
+    font-weight: 800;
+ }
+
+.informasjon .main_column .right_column .form input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #707070;
+    border-radius: 3px;
+}
+.informasjon .main_column .right_column .form input:focus{
+    outline: none;
+}
+.informasjon .main_column .right_column .form label{
+    font-size: 17px;
+    color: #333333;
+    font-family: 'DIN', sans-serif;
+    font-weight: 600;
+}
+.informasjon .main_column .right_column .form .label{
+    display: flex;
+    gap: 52%;
+}
+.informasjon .main_column .right_column .form .label a{
+    font-size: 17px;
+    color: #87565B;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
+}
+.informasjon .main_column .right_column .form .adresse{
+    width: 80%;
+}
+.informasjon .main_column .right_column .form select{
+    display: block;
+}
+.informasjon .main_column .right_column .form .post_sted{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+}
+.informasjon .main_column .right_column .form .post_sted .post {
+    width: 95%;
+}
+.informasjon .main_column .right_column .form .post_sted .sted {
+    width: 82%;
+}
+
+
+.informasjon .main_column .right_column .form p{
+    font-size: 17px;
+    color: #333333;
+    font-family: 'DIN', sans-serif;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+.informasjon .main_column .right_column .form select{
+    width: 31%;
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+.informasjon .main_column .right_column .form .btn{
+    width: 80%;
+    border: none;
+    background-color: #87565B;
+    color: #fff;
+    font-family: 'Bellfort Press', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* .post_sted label {
+    margin-bottom: 5px;
+}
+
+.post_sted input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+} */
+ /* informasjon section css end */
+
+
+
+
+ /* ---- footer section css start ---- */
+footer{
+    background-image: url(../images/Group\ 2520.jpg);
+    object-fit: cover;
+ }
+ footer .content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+ }
+ footer .content .location{
+    color: #fff;
+ }
+ footer .content .location h3{
+    font-family: 'DIN', sans-serif;
+    font-weight: 800;
+    font-size: 23px;
+ }
+ footer .content .location a{
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    line-height: 25px;
+ }
+ footer .content .location2{
+    text-align: end;
+ }
+ footer .content .location2 a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+ }
+ footer .logo_icon{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 50px;
+ }
+ footer .logo_icon i{
+    font-size: 40px;
+    color: #fff;
+    margin-right: 20px;
+ }
+ footer .logo_icon .logo{
+    display: flex;
+    gap: 7px;
+ }
+ footer .logo .right_image img{
+    width: 80%;
+ }
+
+.footer_bottom{
+    background-color: #333333;
+}
+.footer_bottom .iteam{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0px;
+    align-items: center;
+}
+.footer_bottom .iteam a{
+    display: block;
+    padding-bottom: 10px;
+    color: #fff;
+    font-size: 17px;
+}
+.footer_bottom .logo img{
+    margin-right: 10px;
+}
+.footer_bottom .top_icon{
+    text-align: right;
+}
+.footer_bottom .top_icon i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #626262;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+.footer_bottom .top_icon p{
+    color: #fff;
+
+}
+/* ---- footer section css start ---- */
+/* ---- navbar css start ---- */
+nav{
+    background-color: #333333;
+}
+nav .iteam{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+}
+nav .iteam .personvern a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
+    
+}
+nav .iteam  .logo img{
+    margin-right: 20px;
+}
+nav .iteam .laget a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
+}
+nav .iteam .top_icon{
+    text-align: center;
+    color: #ffffff;
+}
+nav .iteam .top_icon a i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #5C5C5C;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 50px;
+    
+}
+nav .iteam .top_icon p{
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+/* ---- navbar css end ---- */
