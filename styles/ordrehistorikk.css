@@ -112,75 +112,51 @@
     font-family: 'DIN', sans-serif;
     font-weight: 800;
  }
-
-.informasjon .main_column .right_column .form input{
-    margin-top: 10px;
-    margin-bottom: 20px;
-    height: 40px;
-    padding: 5px;
-    border: 1px solid #707070;
-    border-radius: 3px;
-}
-.informasjon .main_column .right_column .form input:focus{
-    outline: none;
-}
-.informasjon .main_column .right_column .form label{
+.informasjon .main_column .right_column{
     font-size: 17px;
-    color: #333333;
-    font-family: 'DIN', sans-serif;
-    font-weight: 600;
-}
-.informasjon .main_column .right_column .form .label{
-    display: flex;
-    gap: 52%;
-}
-.informasjon .main_column .right_column .form .label a{
-    font-size: 17px;
-    color: #87565B;
     font-family: 'DIN', sans-serif;
     font-weight: 400;
 }
-.informasjon .main_column .right_column .form .adresse{
-    width: 80%;
+.informasjon .main_column .right_column .all .Totalbeløp{
+    padding-top: 30px;
+    border-bottom: 2px solid #BAB8B4;
 }
-.informasjon .main_column .right_column .form select{
-    display: block;
+.informasjon .main_column .right_column .all .Totalbeløp .total{
+    display: flex;
+   justify-content: space-between;
+    padding-bottom: 15px;
+    
 }
-.informasjon .main_column .right_column .form .post_sted{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 20px;
-}
-.informasjon .main_column .right_column .form .post_sted .post {
-    width: 95%;
-}
-.informasjon .main_column .right_column .form .post_sted .sted {
-    width: 82%;
-}
-
-
-.informasjon .main_column .right_column .form p{
-    font-size: 17px;
-    color: #333333;
+.informasjon .main_column .right_column .all .Totalbeløp .total p{
+    font-size: 23px;
     font-family: 'DIN', sans-serif;
-    font-weight: 600;
-    padding-bottom: 12px;
+    font-weight: 400;
 }
-.informasjon .main_column .right_column .form select{
-    width: 31%;
-    height: 40px;
-    padding-left: 10px;
-    margin-bottom: 15px;
+.informasjon .main_column .right_column .all .Totalbeløp .total span{
+    padding: 0;
 }
-.informasjon .main_column .right_column .form .btn{
-    width: 80%;
+.informasjon .main_column .right_column .all .Totalbeløp span{
+    display: block;
+    font-size: 17px;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.informasjon .main_column .right_column .all .Totalbeløp button{
+    height: 50px;
+    width: 360px;
     border: none;
-    background-color: #87565B;
-    color: #fff;
+    font-size: 18px;
     font-family: 'Bellfort Press', sans-serif;
     font-weight: 800;
-    font-size: 18px;
+    background-color: #87565B;
+    color: #fff;
+    border-radius: 3px;
     cursor: pointer;
+    margin-bottom: 50px;
+}
+.informasjon .main_column .right_column .card{
+    margin-top: 30px;
 }
  /* informasjon section css end */
 
@@ -189,8 +165,9 @@
 
  /* ---- footer section css start ---- */
 footer{
-    background-image: url(../images/Group\ 2520.jpg);
+    background-image: url(../images/Group\ 25211.png);
     object-fit: cover;
+    background-color: #F8F5EF;
  }
  footer .content{
     display: flex;
