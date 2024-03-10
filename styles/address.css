@@ -191,6 +191,7 @@
 footer{
     background-image: url(../images/Group\ 2520.jpg);
     object-fit: cover;
+    background-color: #F8F5EF;
  }
  footer .content{
     display: flex;
