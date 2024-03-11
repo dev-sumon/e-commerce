@@ -1,0 +1,78 @@
+body {
+    background-color: #707070;
+    margin: 0; 
+}
+
+.container {
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog {
+    width: 600px;
+    height: 570px;
+    text-align: center;
+    background-color: #fff;
+    /* padding: 50px; */
+  
+}
+.dialog p {
+    margin-top: 0;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 56px;
+    font-family: 'Bellfort Press';
+    font-weight: 400;
+    background-color: #F8F5EF;
+    color: #87565B;
+}
+.dialog .submit button{
+    text-align: center;
+    margin-top: 30px;
+    width: 300px;
+    height: 40px;
+    background-color: #87565B;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Bellfort Press';
+    font-weight: 800;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.dialog a{
+    text-decoration: none;
+    color: #333;
+    font-size: 17px;
+    font-family: "DIN";
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+}
+.dialog .form {
+    padding: 0px 150px;
+}
+.dialog .form label{
+    display: block;
+    font-size: 17px;
+    font-family: "DIN";
+    font-weight: 600;
+    text-align: start;
+    margin-bottom: 10px;
+    color-scheme: #333;
+}
+.dialog .form input{
+    display: block;
+    text-align: start;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 40px;
+   
+}
+.dialog .form input:focus{
+    outline: none;
+}
