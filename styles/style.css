@@ -385,7 +385,7 @@ header .header_content .icon input:focus{
 .food_blog_section .food_title {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     align-items: center;
 }
 .food_blog_section .food_title h3{
@@ -394,9 +394,6 @@ header .header_content .icon input:focus{
     font-family: 'Bellfort Press', sans-serif;
     font-weight: 400;
 }
-/* .food_blog_section .food_title button{
-    border: none;
-} */
 .food_blog_section .food_title a{
     text-decoration: none;
     font-size: 17px;
@@ -432,7 +429,7 @@ header .header_content .icon input:focus{
 .food_blog_section .food_iteam .iteam .desc .text a{
     text-decoration: none;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     border-radius: 5px;
     font-size: 23px;
@@ -533,15 +530,6 @@ nav .iteam .top_icon{
     text-align: center;
     color: #ffffff;
 }
-/* nav .iteam .top_icon a i {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #5C5C5C;
-    text-align: center;
-    font-size: 48px;
-    color: #ffffff;
-} */
 nav .iteam .top_icon a i {
     width: 50px;
     height: 50px;

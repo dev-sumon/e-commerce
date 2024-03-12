@@ -3,152 +3,188 @@
     padding: 0; 
     box-sizing: border-box;
  }
+  /* Bellfort Press font family */
+  @font-face {
+     font-family: 'Bellfort Press';
+     src: url('path/to/BellfortPress-Regular.woff2') format('woff2'),
+          url('path/to/BellfortPress-Regular.woff') format('woff');
+  }
+  /* Blacksword font family */
+  @font-face {
+     font-family: 'Blacksword';
+     src: url('path/to/Blacksword-Regular.woff2') format('woff2'), 
+          url('path/to/Blacksword-Regular.woff') format('woff'); 
+  }
  .container{
      max-width: 1368px;
      padding: 0px 50px;
      margin: 0 auto;
      height: 100%;
  }
-/* ---- header css satrt ----- */
-header{
-    background-color: #87565B;
-    margin: 0 auto;
-    padding: 0;
-}
-header .header_content {
-    display: flex;
-    /* grid-template-columns: 1fr 1fr 1fr; */
-    justify-content: space-between;
-    justify-items: center;
-    align-items: center;
-    padding: 5px;
-}
-header .header_content img{
-    text-align: start;
-}
-header .header_content .menu{
-    text-align: center;
-}
-header .header_content ul li{
-    list-style: none;
-    display: inline-block;
-    margin-right: 20px;
-    font-size: 18px;
-}
-header .header_content ul li:last-child{
-    margin-right: 0px;
-}
-header .header_content a{
-    text-decoration: none;
-    color: #fff;
-}
-header .header_content .icon{
-    text-align: right;
-}
-header .header_content .icon i{
-    color: #fff;
-}
-header .header_content .icon .fa-user{
-    padding: 5px;
-}
-header .header_content .icon input {
-    width: 75px;
-    padding: 5px 0px 5px 30px;
-    background-color:  #AB898D;
-    border: none;
-}
-/* header .header_content .icon input{
-    background-color:  #AB898D;
- } */
+ /* ---- header css satrt ----- */
+ header{
+     background-color: #87565B;
+     margin: 0 auto;
+     padding: 0;
+ }
+ header .header_content {
+     display: flex;
+     justify-content: space-between;
+     justify-items: center;
+     align-items: center;
+     padding: 5px;
+ }
+ header .header_content img{
+     text-align: start;
+ }
+ header .header_content .menu{
+     text-align: center;
+ }
+ header .header_content ul li{
+     list-style: none;
+     display: inline-block;
+     margin-right: 20px;
+     font-size: 18px;
+ }
+ header .header_content ul li:last-child{
+     margin-right: 0px;
+ }
+ header .header_content a{
+     font-family: 'DIN', sans-serif;
+     font-weight: 400;
+     font-size: 18px;
+     text-decoration: none;
+     color: #fff;
+ }
  header .header_content .icon{
-    position: relative;
-}
-header .header_content .search {
-    position: absolute;
-    top: 7px;
-    left: 5px;
-    font-size: 12px;
-}
-header .header_content .icon input::placeholder{
-    color: #ffffff;
-}
-header .header_content .icon input:focus{
-    outline: none;
-}
-/* ---- header css end ----- */
+     text-align: right;
+ }
+ header .header_content .icon i{
+     color: #fff;
+ }
+ header .header_content .icon .fa-user{
+     padding: 5px;
+ }
+ header .header_content .icon input {
+     width: 75px;
+     padding: 5px 0px 5px 30px;
+     background-color:  #AB898D;
+     border: none;
+ }
+  header .header_content .icon{
+     position: relative;
+ }
+ header .header_content .search {
+     position: absolute;
+     top: 7px;
+     left: 5px;
+     font-size: 12px;
+ }
+ header .header_content .icon input::placeholder{
+     color: #ffffff;
+ }
+ header .header_content .icon input:focus{
+     outline: none;
+ }
+ /* ---- header css end ----- */
  /* ---- iteam deatils section css start ----- */
  .iteam_deatils_section{
     margin: 100px 0px;
  }
- .iteam_deatils_section .content h5{
+.iteam_deatils_section .content span{
     font-size: 32px;
     padding: 20px 0px;
+    font-family: 'Blacksword', sans-serif;
+    font-weight: 400;
+
  }
   .iteam_deatils_section .content h3{
     font-size: 56px;
     padding: 20px 0px;
     color: #87565B;
+    font-family: 'Bellfort Press', sans-serif;
+    font-weight: 400;
  }
  .iteam_deatils_section .content p {
     font-size: 23px;
     color: #333333;
-    padding-right: 531px;
+    padding-right: 500px;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
 }
-.iteam_deatils_section .content p{
-    font-size: 23px;
-    color: #333333;
- }
- .iteam_deatils_section .iteam_select{
+.iteam_deatils_section .iteam_select{
     padding: 50px 0px;
- }
- .iteam_deatils_section .iteam_select{
+}
+.iteam_deatils_section .iteam_select{
     display: flex;
     justify-content: space-between;
- }
- .iteam_deatils_section .iteam_select .kategori_tags{
+}
+.iteam_deatils_section .iteam_select .kategori_tags{
     display: flex;
     gap: 20px;
- }
- .iteam_deatils_section .iteam_select .kategori_tags .kategori select{
+}
+.iteam_deatils_section .iteam_select .kategori_tags .kategori select{
     padding: 5px 50px 5px 5px;
- }
- .iteam_deatils_section .iteam_select .kategori_tags .tags select {
+}
+.iteam_deatils_section .iteam_select .kategori_tags .tags select {
     padding: 5px 50px 5px 5px;
 }
  .iteam_deatils_section .iteam_select  .sortering select{
     padding: 5px 50px 5px 5px;
  }
   /* ---- iteam deatils section css end ----- */
-  /* ---- prodcut Section CSS  Start ----- */
+/* ---- prodcut Section CSS  Start ----- */
 .prodcut_section {
     margin-top: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
+}
+.prodcut_section .product_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.prodcut_section .product_title h3{
+    color: #87565B;
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family: 'Bellfort Press', sans-serif;
+    font-weight: 800;
+}
+.prodcut_section .product_title a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 17px;
+    font-family: 'DIN', sans-serif;
+    font-weight: 600;
+    border-bottom: 2px solid #87565B;
 }
 .prodcut_section .product_iteam {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 35px;
-    row-gap: 50px;
+
 }
 .prodcut_section .product_iteam .iteam {
-    padding: 20px 20px 10px 20px;
+    padding: 15px 25px 10px 25px;
     background-color: #F8F5EF;
     position: relative;
-    border-radius: 5px;
 }
 .prodcut_section .product_iteam .iteam .discount {
     position: absolute;
     right: 5px;
     top: 1%;
     display: inline-block;
-    font-size: 15px;
-    height: 50px;
-    width: 50px;
-    line-height: 50px;
+    font-size: 20px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
     border-radius: 50%;
     background-color: #87565b;
     text-align: center;
     color: #FFFFFF;
+    font-family: 'Bellfort Press', sans-serif;
+    font-weight: 800;
 }
 .prodcut_section .product_iteam .iteam img{
     width: 100%;
@@ -157,22 +193,22 @@ header .header_content .icon input:focus{
     text-decoration: none;
     color: #333333;
     padding: 5px 0px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
+    font-family: 'DIN', sans-serif;
+    font-weight: 800;
     font-size: 23px;
 
 }
 .prodcut_section .product_iteam .iteam_desc p{
     padding: 5px 0px;
-    font-family: "Roboto", sans-serif;
+    font-family: 'DIN', sans-serif;
     font-weight: 400;
     font-size: 23px;
     color: #333333;
 }
 .prodcut_section .product_iteam .iteam_desc span{
     padding: 5px 0px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-family: 'DIN', sans-serif;
+    font-weight: 800;
     font-size: 17px;
     color: #87565B;
 
@@ -195,41 +231,35 @@ header .header_content .icon input:focus{
 .prodcut_section .next_page span:last-child{
     margin-right: 0;
 }
-/* .prodcut_section .next_page s{
-    margin-right: 20px;
-} */
 /* ---- prodcut Section CSS  end ----- */
 /* ---- food_blog_section css start ---- */
-.food_blog_section{
+.food_blog_section {
     margin: 150px 0px;
     background-color: #F5F1EB;
-    padding: 100px 0px;
+    padding: 50px 0px;
 }
 .food_blog_section .food_title {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     align-items: center;
 }
 .food_blog_section .food_title h3{
     font-size: 40px;
     color: #87565B;
+    font-family: 'Bellfort Press', sans-serif;
+    font-weight: 400;
 }
-/* .food_blog_section .food_title button{
-    border: none;
-} */
 .food_blog_section .food_title a{
     text-decoration: none;
     font-size: 17px;
     line-height: 20px;
     color: #333333;
     padding: 5px;
-    border-bottom: 3px solid #87565B;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
+    border-bottom: 2px solid #87565B;
    
-}
-.food_blog_section .food_title a::before{
-    content: '';
-    
 }
 .food_blog_section .food_iteam{
     display: flex;
@@ -249,16 +279,21 @@ header .header_content .icon input:focus{
     position: absolute;
     left: 0;
     bottom: 0;
-    transform: translate(20%, -50%);
+    transform: translate(5%, -30%);
     color: #fff;
 }
-.food_blog_section .food_iteam .iteam .desc .text h3{
-    background-color: rgba(0, 0, 0, 0.5); 
+.food_blog_section .food_iteam .iteam .desc .text a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     border-radius: 5px;
+    font-size: 23px;
+    font-family: 'DIN', sans-serif;
+    font-weight: 600;
 }
-.food_blog_section .food_iteam .iteam .desc .text p{
-    padding-top: 10px;
+.food_blog_section .food_iteam .iteam .desc .text p {
+    padding-top: 15px;
 }
 /* ---- food_blog_section css end ---- */
 /* ---- footer section css start ---- */
@@ -274,16 +309,31 @@ footer{
  footer .content .location{
     color: #fff;
  }
+ footer .content .location h3{
+    font-size: 23px;
+    font-family: 'DIN', sans-serif;
+    font-weight: 600;
+ }
  footer .content .location a{
     text-decoration: none;
     color: #fff;
     display: block;
     line-height: 30px;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+ }
+ footer .content .location2{
+    text-align: end;
  }
  footer .content .location2 a{
     text-decoration: none;
     color: #fff;
     display: block;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 5px;
  }
  footer .logo_icon{
     display: flex;
@@ -296,7 +346,6 @@ footer{
     color: #fff;
     margin-right: 20px;
  }
-
  footer .logo_icon .logo{
     display: flex;
     gap: 7px;
@@ -304,44 +353,6 @@ footer{
  footer .logo .right_image img{
     width: 80%;
  }
-
-.footer_bottom{
-    background-color: #333333;
-}
-.footer_bottom .iteam{
-    display: flex;
-    justify-content: space-between;
-    padding: 25px 0px;
-    align-items: center;
-}
-.footer_bottom .iteam a{
-    /* text-decoration: none; */
-    display: block;
-    padding-bottom: 10px;
-    color: #fff;
-    font-size: 17px;
-}
-.footer_bottom .logo img{
-    margin-right: 10px;
-}
-.footer_bottom .top_icon{
-    text-align: right;
-    /* margin-top: 50%; */
-}
-.footer_bottom .top_icon i {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    background-color: #626262;
-    border-radius: 50%;
-    text-align: center;
-    font-size: 30px;
-    color: #fff;
-}
-.footer_bottom .top_icon p{
-    color: #fff;
-
-}
 /* ---- footer section css start ---- */
 /* ---- navbar css start ---- */
 nav{
@@ -355,9 +366,11 @@ nav .iteam{
 }
 nav .iteam .personvern a{
     display: block;
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #ffffff;
     font-size: 17px;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
 }
 nav .iteam  .logo img{
     margin-right: 20px;
@@ -366,6 +379,8 @@ nav .iteam .laget a{
     text-decoration: none;
     font-size: 17px;
     color: #ffffff;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
 }
 nav .iteam .top_icon{
     text-align: center;
@@ -377,7 +392,8 @@ nav .iteam .top_icon a i {
     border-radius: 50%;
     background-color: #5C5C5C;
     text-align: center;
-    font-size: 48px;
+    font-size: 30px;
     color: #ffffff;
+    line-height: 50px;
 }
 /* ---- navbar css end ---- */

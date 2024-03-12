@@ -353,44 +353,6 @@ footer{
  footer .logo .right_image img{
     width: 80%;
  }
-
-.footer_bottom{
-    background-color: #333333;
-}
-.footer_bottom .iteam{
-    display: flex;
-    justify-content: space-between;
-    padding: 25px 0px;
-    align-items: center;
-}
-.footer_bottom .iteam a{
-    /* text-decoration: none; */
-    display: block;
-    padding-bottom: 10px;
-    color: #fff;
-    font-size: 17px;
-}
-.footer_bottom .logo img{
-    margin-right: 10px;
-}
-.footer_bottom .top_icon{
-    text-align: right;
-    /* margin-top: 50%; */
-}
-.footer_bottom .top_icon i {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    background-color: #626262;
-    border-radius: 50%;
-    text-align: center;
-    font-size: 30px;
-    color: #fff;
-}
-.footer_bottom .top_icon p{
-    color: #fff;
-
-}
 /* ---- footer section css start ---- */
 /* ---- navbar css start ---- */
 nav{
