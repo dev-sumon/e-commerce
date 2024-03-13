@@ -550,7 +550,83 @@ nav .iteam .top_icon a i {
 
 
 /* responsive start  */
+@media only screen and (max-width: 1320px) {
+    .reasons_section .content .iteam {
+        padding: 10px 50px;
+    }
+    .bønder_section .article .desc {
+        padding-left: 327px;
+    }
+}
+@media only screen and (max-width: 1298px) {
+    .bønder_section .article .desc {
+        padding-left: 305px;
+    }
+}
+@media only screen and (max-width: 1275px) {
+    .bønder_section .article .desc {
+        padding-left: 282px;
+    }
+}
 
+@media only screen and (max-width: 1260px) {
+    .reasons_section .reasons_totle h3 {
+        padding: 10px 284px;
+    }
+    .reasons_section .content .iteam {
+        padding: 10px 30px;
+    }
+}
+@media only screen and (max-width: 1253px) {
+    .bønder_section .article .desc {
+        padding-left: 260px;
+    }
+}
+@media only screen and (max-width: 1230px) {
+    .bønder_section .article .desc {
+        padding-left: 237px;
+    }
+}
+@media only screen and (max-width: 1208px) {
+    .bønder_section .article .desc {
+        padding-left: 215px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .reasons_section .reasons_totle h3 {
+        padding: 10px 254px;
+    }
+}
+@media only screen and (max-width: 1140px) {
+    .reasons_section .reasons_totle h3 {
+        padding: 10px 224px;
+    }
+    .reasons_section .content .iteam {
+        padding: 10px 12px;
+    }
+    .food_blog_section .food_iteam {
+        column-gap: 40px;
+    }
+    .food_blog_section .food_iteam .iteam .desc .text a {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 1080px) {
+    .reasons_section .reasons_totle h3 {
+        padding: 10px 193px;
+    }
+    .food_blog_section .food_iteam .iteam .desc .text a {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 1032px){
+    .reasons_section .content .iteam {
+        padding: 10px 0px;
+    }
+    .reasons_section .reasons_totle h3 {
+        padding: 10px 162px;
+    }
+}
 @media only screen and (max-width: 1024px){
     .prodcut_section .product_iteam .iteam_desc a {
         font-size: 20px;
@@ -571,6 +647,12 @@ nav .iteam .top_icon a i {
     .prodcut_section .product_iteam .iteam_desc span {
         font-size: 15px;
     }
+    .food_blog_section .food_iteam {
+        column-gap: 30px;
+    }
+    .food_blog_section .food_iteam .iteam .desc .text a {
+        font-size: 20px;
+    }
 }
 @media only screen and (max-width: 989px) {
     .prodcut_section .product_iteam {
@@ -579,6 +661,95 @@ nav .iteam .top_icon a i {
     }
     .prodcut_section .product_title a {
         display: none;
+    }
+    .reasons_section .content {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .reasons_section .content .iteam h3 {
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+    
+    .reasons_section .reasons_totle h3 {
+        padding-bottom: 15px;
+    }
+    .food_blog_section .food_iteam .iteam .desc .text a {
+        font-size: 19px;
+    }
+    .food_blog_section .food_iteam .iteam .desc .text a {
+        padding: 8px;
+    }
+}
+@media only screen and (max-width: 955px) {
+    .reasons_section .reasons_totle h3 {
+        padding: 10px 131px;
+    }
+    .food_blog_section .food_iteam .iteam .desc .text a {
+        font-size: 18px;
+    }
+    .food_blog_section .food_iteam .iteam .desc .text a {
+        padding: 7px;
+    }
+}
+@media only screen and (max-width: 899px) {
+    .food_blog_section .food_iteam {
+        display: block;
+    }
+    .food_blog_section .food_iteam .iteam{
+        margin-bottom: 40px;
+    }
+    .food_blog_section .food_title a{
+        display: none;
+    }
+    .food_blog_section {
+        padding: 30px 0px;
+    }
+}
+@media only screen and (max-width: 894px) {
+    .reasons_section .reasons_totle h3 {
+        padding: 10px 100px;
+    }
+}
+@media only screen and (max-width: 840px){
+    .reasons_section .reasons_totle h3 {
+        padding: 10px 100px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .reasons_section .reasons_totle h3 {
+        padding: 10px 38px;
+    }
+}
+@media only screen and (max-width: 708px) {
+    .reasons_section .reasons_totle h3 {
+        padding: 10px 0px;
+    }
+}
+@media only screen and (max-width: 552px) {
+    .reasons_section .reasons_totle h3{
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width: 520px) {
+    .food_blog_section .food_title h3 {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 495px) {
+    .reasons_section .reasons_totle p {
+        font-size: 20px;
+    }
+    .reasons_section .reasons_totle h3 {
+        font-size: 27px;
+    }
+    .reasons_section .content .iteam p {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 459px) {
+    .reasons_section .reasons_totle h3 {
+        font-size: 25px;
     }
 }
 @media only screen and (max-width: 425px){
@@ -592,15 +763,26 @@ nav .iteam .top_icon a i {
         font-weight: 600;
     }
     .container{
-        padding: 0px 25px;
+        padding: 0px 40px;
     }
     .prodcut_section .product_title h3 {
         font-size: 35px;
+    }
+    .food_blog_section .food_title h3 {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .food_blog_section .food_title h3 {
+        font-size: 23px;
     }
 }
 @media only screen and (max-width: 320px){
     .prodcut_section .product_iteam .iteam {
         padding: 10px 10px 5px 10px;
+    }
+    .prodcut_section .product_title h3 {
+        font-size: 26px;
     }
     .prodcut_section .product_iteam .iteam .discount {
         font-size: 14px;
@@ -611,6 +793,9 @@ nav .iteam .top_icon a i {
     }
     .prodcut_section .product_title h3 {
         padding-bottom: 10px;
+    }
+    .food_blog_section .food_title h3 {
+        font-size: 20px;
     }
 }
 /* responsive end  */
