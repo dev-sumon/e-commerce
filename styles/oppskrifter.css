@@ -3,13 +3,25 @@
     padding: 0; 
     box-sizing: border-box;
  }
+ /* Bellfort Press font family */
+ @font-face {
+    font-family: 'Bellfort Press';
+    src: url('path/to/BellfortPress-Regular.woff2') format('woff2'),
+         url('path/to/BellfortPress-Regular.woff') format('woff');
+ }
+ /* Blacksword font family */
+ @font-face {
+    font-family: 'Blacksword';
+    src: url('path/to/Blacksword-Regular.woff2') format('woff2'), 
+         url('path/to/Blacksword-Regular.woff') format('woff'); 
+ }
  .container{
      max-width: 1368px;
      padding: 0px 50px;
      margin: 0 auto;
      height: 100%;
  }
- /* ---- header css satrt ----- */
+/* ---- header css satrt ----- */
 header{
     background-color: #87565B;
     margin: 0 auto;
@@ -17,7 +29,6 @@ header{
 }
 header .header_content {
     display: flex;
-    /* grid-template-columns: 1fr 1fr 1fr; */
     justify-content: space-between;
     justify-items: center;
     align-items: center;
@@ -39,6 +50,9 @@ header .header_content ul li:last-child{
     margin-right: 0px;
 }
 header .header_content a{
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
     text-decoration: none;
     color: #fff;
 }
@@ -57,9 +71,6 @@ header .header_content .icon input {
     background-color:  #AB898D;
     border: none;
 }
-/* header .header_content .icon input{
-    background-color:  #AB898D;
- } */
  header .header_content .icon{
     position: relative;
 }
@@ -76,7 +87,7 @@ header .header_content .icon input:focus{
     outline: none;
 }
 /* ---- header css end ----- */
-  /* ----- bake_section css start ---- */
+/* ----- bake_section css start ---- */
 .bake_section{
     margin: 50px 0px;
 }
@@ -87,20 +98,37 @@ header .header_content .icon input:focus{
 .bake_section .content h5{
     font-size: 32px;
     color: #333333;
+    font-family: 'Blacksword', sans-serif;
+    font-weight: 400;
 }
 .bake_section .content h3{
     font-size: 56px;
     color: #87565B;
+    font-family: 'Bellfort Press', sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
 }
 .bake_section .select {
     display: flex;
     justify-content: space-between;
     column-gap: 52px;
     align-items: end;
-    
 }
-.bake_section .select select {
-    padding: 5px 30px 5px 5px;
+.bake_section .select select{
+    padding: 10px 50px 10px 10px;
+    border: 1px solid #333333;
+    border-radius: 3px;
+    font-size: 17px;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+.bake_section .select select:hover{
+    border: 1px solid #87565B;
+}
+.bake_section .select select:focus{
+    border: 1px solid #87565B;
+    outline: #87565B;
 }
   /* ----- bake_section css end ---- */
   /* ---- food_blog_section css start ---- */
@@ -129,19 +157,24 @@ header .header_content .icon input:focus{
     position: absolute;
     left: 0;
     bottom: 0;
-    transform: translate(20%, -50%);
+    transform: translate(5%, -30%);
     color: #fff;
 }
-.food_blog_section .food_iteam .iteam .desc .text h3{
-    background-color: rgba(0, 0, 0, 0.5); 
+.food_blog_section .food_iteam .iteam .desc .text a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     border-radius: 5px;
+    font-size: 23px;
+    font-family: 'DIN', sans-serif;
+    font-weight: 600;
 }
 .food_blog_section .food_iteam .iteam .desc .text p{
     padding-top: 10px;
 }
-  /* ---- food_blog_section css end ---- */
-  /* ---- footer section css start ---- */
+/* ---- food_blog_section css end ---- */
+/* ---- footer section css start ---- */
 footer{
     background-image: url(../images/Group\ 2520.jpg);
     object-fit: cover;
@@ -154,16 +187,31 @@ footer{
  footer .content .location{
     color: #fff;
  }
+ footer .content .location h3{
+    font-size: 23px;
+    font-family: 'DIN', sans-serif;
+    font-weight: 600;
+ }
  footer .content .location a{
     text-decoration: none;
     color: #fff;
     display: block;
     line-height: 30px;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+ }
+ footer .content .location2{
+    text-align: end;
  }
  footer .content .location2 a{
     text-decoration: none;
     color: #fff;
     display: block;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 5px;
  }
  footer .logo_icon{
     display: flex;
@@ -183,44 +231,6 @@ footer{
  footer .logo .right_image img{
     width: 80%;
  }
-
-.footer_bottom{
-    background-color: #333333;
-}
-.footer_bottom .iteam{
-    display: flex;
-    justify-content: space-between;
-    padding: 25px 0px;
-    align-items: center;
-}
-.footer_bottom .iteam a{
-    /* text-decoration: none; */
-    display: block;
-    padding-bottom: 10px;
-    color: #fff;
-    font-size: 17px;
-}
-.footer_bottom .logo img{
-    margin-right: 10px;
-}
-.footer_bottom .top_icon{
-    text-align: right;
-    /* margin-top: 50%; */
-}
-.footer_bottom .top_icon i {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    background-color: #626262;
-    border-radius: 50%;
-    text-align: center;
-    font-size: 30px;
-    color: #fff;
-}
-.footer_bottom .top_icon p{
-    color: #fff;
-
-}
 /* ---- footer section css start ---- */
 /* ---- navbar css start ---- */
 nav{
@@ -234,9 +244,11 @@ nav .iteam{
 }
 nav .iteam .personvern a{
     display: block;
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #ffffff;
     font-size: 17px;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
 }
 nav .iteam  .logo img{
     margin-right: 20px;
@@ -245,6 +257,8 @@ nav .iteam .laget a{
     text-decoration: none;
     font-size: 17px;
     color: #ffffff;
+    font-family: 'DIN', sans-serif;
+    font-weight: 400;
 }
 nav .iteam .top_icon{
     text-align: center;
@@ -256,7 +270,8 @@ nav .iteam .top_icon a i {
     border-radius: 50%;
     background-color: #5C5C5C;
     text-align: center;
-    font-size: 48px;
+    font-size: 30px;
     color: #ffffff;
+    line-height: 50px;
 }
 /* ---- navbar css end ---- */
