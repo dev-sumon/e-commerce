@@ -548,7 +548,8 @@ nav .iteam .top_icon a i {
 
 
 
-/* responsive start  */
+/* responsive start
+
 @media only screen and (max-width: 1320px) {
     .reasons_section .content .iteam {
         padding: 10px 50px;
@@ -821,7 +822,8 @@ nav .iteam .top_icon a i {
         font-size: 20px;
     }
 }
-/* responsive end  */
+
+responsive end  */
 
 
 
