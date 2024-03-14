@@ -296,9 +296,9 @@ header .header_content .icon input:focus{
     display: flex;
     gap: 40px;
 }
-.bønder_section .farmer .desc{
+.bønder_section .farmer .desc {
     padding-top: 10px;
-    padding-right: 340px;
+    width: 415px;
 }
 .bønder_section .farmer .desc span{
     font-size: 24px;
@@ -348,7 +348,6 @@ header .header_content .icon input:focus{
     font-weight: 400;
 }
 .bønder_section .article .desc {
-    /* padding-bottom: 100px; */
     padding-left: 340px; 
     text-align: end;
 }
@@ -719,6 +718,30 @@ nav .iteam .top_icon a i {
 @media only screen and (max-width: 768px) {
     .reasons_section .reasons_totle h3 {
         padding: 10px 38px;
+    }
+    footer .content{
+        display: block;
+    }
+    footer .content .location2 {
+        text-align: start;
+        padding-top: 50px;
+    }
+    footer .logo_icon{
+        display: block;    }
+    footer .logo_icon .logo {
+        padding: 50px 0px;
+    }
+    footer .logo_icon {
+        padding-top: 40px;
+    }
+    nav .iteam{
+        display: block;
+    }
+    nav .iteam  .logo img {
+        padding: 20px 0px;
+    }
+    nav .iteam .top_icon{
+        text-align: end;
     }
 }
 @media only screen and (max-width: 708px) {
